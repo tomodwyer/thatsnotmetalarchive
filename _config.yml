@@ -1,0 +1,24 @@
+title: That's Not Metal Archive
+description: >
+  This site is an unofficial collection of show notes and links from the That’s
+  Not Metal podcast.
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - LICENSE
+  - README.md
+include:
+  - _pages
+google_analytics: UA-83926181-1
+permalink: /show/:year-:month-:day-:title/
+collections:
+- specials
+
+
+# Site specific
+twitter: https://twitter.com/notmetalpod
+facebook: https://www.facebook.com/thatsnotmetalpodcast/

@@ -1,0 +1,16 @@
+<header id="header" class="alt">
+  <a href="{{ "/" | relative_url}}" class="logo"><strong>That's Not Metal</strong> <span>Archive</span></a>
+  <nav>
+    <a href="#menu">Menu</a>
+  </nav>
+</header>
+
+<nav id="menu">
+  <ul class="links">
+    {% for my_page in site.pages %}
+      {% if my_page.title %}
+      <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>

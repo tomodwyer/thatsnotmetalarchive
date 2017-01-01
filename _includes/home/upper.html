@@ -1,0 +1,14 @@
+<section id="one" class="tiles">
+  {% for block in page.upper %}
+  <article>
+    <a href="{{ block.link }}" class="tiles-link"></a>
+    <span class="image">
+      <img src="{{ block.image.link }}" alt="{{ block.image.text}}" />
+    </span>
+    <header class="major">
+      <h3>{{ block.title }}</h3>
+      <p>{{ block.description }}</p>
+    </header>
+  </article>
+  {% endfor %}
+</section>
