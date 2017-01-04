@@ -8,7 +8,7 @@ soundcloud: "294675627"
 
 ## News
 
-- [While She Sleeps reveal new album You Are We](http://teamrock.com/news/2016-11-21/while-she-sleeps-reveal-new-album-you-are-we)
+- [While She Sleeps Reveal New Album, Video + Tour](http://www.rocksound.tv/news/read/while-she-sleeps-reveal-new-album-video-tour)
 - [Justin Bieber Punches Fan in Barcelona](https://www.youtube.com/watch?v=GS_ywxv3uzI)
 
 

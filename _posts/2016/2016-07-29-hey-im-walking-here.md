@@ -11,7 +11,7 @@ soundcloud: "275851373"
 - [Avenged Sevenfold Announce UK Tour](http://www.gigsandtours.com/news/avenged-sevenfold-announce-/2557)
 - [Alter Bridge Releases Lyric Video For 'Show Me A Leader'](http://www.blabbermouth.net/news/alter-bridge-releases-lyric-video-for-show-me-a-leader-more-the-last-hero-album-details/)
 - [Nails cancel tour, reportedly go on hiatus](http://lambgoat.com/news/26974/Nails-cancel-tour-reportedly-go-on-hiatus)
-- [King 810 stream I Aint Goin Back Again](http://teamrock.com/news/2016-07-25/king-810-stream-i-aint-goin-back-again)
+- [King 810 “Ain’t Goin’ Back Again”](http://www.metalsucks.net/2016/07/25/king-810-aint-goin-back/)
 - [Korn Announce New Album, Release First Track](http://www.kerrang.com/44519/korn-announce-new-album-release-first-track/)
 
 

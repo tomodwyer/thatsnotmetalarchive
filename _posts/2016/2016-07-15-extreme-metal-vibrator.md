@@ -12,7 +12,7 @@ soundcloud: "273757102"
 - [Bad Religion's Brian Baker to Bring Me the Horizon: "You Suck as Humans"](https://noisey.vice.com/en_uk/blog/bad-religion-bring-me-the-horizon-going-at-it-in-the-comments)
 - [Slipknot Singer Corey Taylor Slaps Phone Out of Texting Fan's Hands During Concert](http://www.billboard.com/articles/columns/rock/7431371/slipknot-corey-taylor-phone-texting-fan-concert-video)
 - [Red Fang Announce ‘Only Ghosts’ Album, Share New Track "Flies"](http://loudwire.com/red-fang-only-ghosts-album-share-flies/)
-- [Parkway Drive have released a brand new song "Devil’s Calling"](http://teamrock.com/news/2016-07-10/parkway-drive-listen-to-brand-new-song-devil-s-calling)
+- [Parkway Drive's Song "Devil's Calling" Is Mid-Tempo Melodeath Fist-Pumper](http://www.metalinjection.net/latest-news/parkway-drives-song-devils-calling-is-mid-tempo-melodeath-fist-pumper)
 
 
 ## Questions

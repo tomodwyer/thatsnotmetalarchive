@@ -8,11 +8,11 @@ soundcloud: "287592644"
 
 ## News
 
-- [Avenged Sevenfold release new song The Stage](http://teamrock.com/news/2016-10-13/avenged-sevenfold-release-the-stage-video)
-- [Enter Shikari release video for their new single Hoodwinker](http://teamrock.com/news/2016-10-10/watch-enter-shikaris-hoodwinker-video)
-- [System Of A Down announce 2017 European festival slots](http://teamrock.com/news/2016-10-10/system-of-a-down-announce-2017-european-festival-slots)
-- [Ghost's new album to arrive in 2017](http://teamrock.com/news/2016-10-13/ghosts-new-album-to-arrive-in-2017)
-- [Of Mice & Men cancel remaining European tour dates](http://teamrock.com/news/2016-10-11/of-mice-men-cancel-remaining-european-tour-dates)
+- [Avenged Sevenfold Release New Single, “The Stage,” And Music Video](http://digitalnoisemag.com/watch-avenged-sevenfold-release-new-single-the-stage-and-music-video/)
+- [Enter Shikari unveil surprise new single ‘Hoodwinker’](http://www.nme.com/news/music/nme-2603-1190003)
+- [System of a Down Announce 2017 European Tour Dates](http://loudwire.com/system-of-a-down-2017-european-tour-dates/)
+- [Next GHOST Album To Arrive In Fall Of 2017](http://www.blabbermouth.net/news/next-ghost-album-to-arrive-in-fall-of-2017/)
+- [Of Mice & Men Postpone Remaining European Tour Dates](http://www.billboard.com/articles/news/7541013/of-mice-men-postpone-european-tour-dates)
 
 
 ## Questions
