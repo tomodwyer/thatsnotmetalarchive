@@ -9,9 +9,9 @@ soundcloud: "283121024"
 ## News
 
 - [That's Not Metal World Cup of Rock](https://www.facebook.com/thatsnotmetalpodcast/photos/a.1814755825417620.1073741828.1814737015419501/1949906775235857/?type=3)
-- [Bolt Thrower confirm split](http://teamrock.com/news/2016-09-16/bolt-thrower-confirm-split)
-- [Korn and Limp Bizkit announce joint UK winter tour](http://teamrock.com/news/2016-09-14/korn-and-limp-bizkit-announce-joint-uk-winter-tour)
-- [While She Sleeps launch PledgeMusic campaign for new album](http://teamrock.com/news/2016-09-13/while-she-sleeps-launch-pledgemusic-campaign-for-new-album)
+- [BOLT THROWER Officially Splits Up: 'There Will Be No Reunion Tours'](http://www.blabbermouth.net/news/bolt-thrower-officially-splits-up-there-will-be-no-reunion-tours/)
+- [Korn and Limp Bizkit announce joint UK tour](http://www.nme.com/news/music/korn-83-1199920)
+- [While She Sleeps go independent for new album, launch crowd fund](http://www.altpress.com/news/entry/while_she_sleeps_go_independent_for_new_album_launch_crowd_fund)
 
 
 ## Questions

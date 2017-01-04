@@ -9,7 +9,7 @@ soundcloud: "293557491"
 ## News
 
 - [Tranny: Confessions of Punk Rock's Most Infamous Anarchist Sellout](https://www.amazon.co.uk/Tranny-Confessions-Infamous-Anarchist-Sellout/dp/0316387959)
-- [Prophets Of Rage plan 2nd EP... and more to follow](http://teamrock.com/news/2016-11-16/prophets-of-rage-plan-2nd-ep-and-more-to-follow)
+- [Prophets Of Rage Bassist Wants Band To Release New EP Every Six Months](http://www.theprp.com/2016/08/19/news/prophets-rage-bassist-wants-band-release-new-ep-every-six-months/)
 - [Davey Havok-Led Band With No Doubt Members Gets a Name](http://loudwire.com/davey-havok-led-band-no-doubt-members-gets-name/)
 - [Jimmy Fallon, Metallica & The Roots Sing "Enter Sandman" (Classroom Instruments)](https://www.youtube.com/watch?v=GXJifYl_byU)
 

@@ -9,8 +9,8 @@ soundcloud: "298189866"
 ## News
 
 - [Puppy will be opening up for Creeper on their UK headline tour](https://twitter.com/creepercultuk/status/809742219385143296)
-- [Will Trent Reznor still deliver new Nine Inch Nails this year?](http://teamrock.com/news/2016-12-14/will-trent-reznor-still-deliver-new-nine-inch-nails-this-year)
-- [Avenged Sevenfold team up with Cirque du Soleil for live shows](http://teamrock.com/news/2016-12-13/avenged-sevenfold-team-up-with-cirque-du-soleil-for-live-shows)
+- [Trent Reznor, Atticus Ross Working on New Nine Inch Nails Music](http://www.rollingstone.com/music/news/trent-reznor-working-on-new-nine-inch-nails-music-w445836)
+- [Avenged Sevenfold Team With Cirque du Soleil Producers For New Stage Show](http://loudwire.com/avenged-sevenfold-team-cirque-du-soleil-producers-new-stage-show/)
 - [Warped Tour announces 2017 dates and cities](http://www.altpress.com/news/entry/warped_tour_announces_2017_dates_and_cities)
 - [At The Drive-In Just Released Its First Song In 16 Years](http://www.npr.org/sections/allsongs/2016/12/08/504855983/at-the-drive-in-just-released-its-first-song-in-16-years)
 - [Korn members jam with Korn tribute band on stage—watch](http://www.altpress.com/news/entry/korn_members_jam_with_u.k._tribute_band_on_stagewatch)

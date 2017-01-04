@@ -8,7 +8,7 @@ soundcloud: "281007577"
 
 ## News
 
-- [What are System Of A Down teasing?](http://teamrock.com/feature/2016-09-01/what-are-system-of-a-down-teasing)
+- [SYSTEM OF A DOWN Tease Something Big With Rehersal Photo](http://www.metalinjection.net/latest-news/is-system-of-a-down-finally-hashing-out-new-songs)
 - [Creeper Are Up To Something](http://www.upsetmagazine.com/read/creeper-are-up-to-something/)
 - Reading festival review chat
 

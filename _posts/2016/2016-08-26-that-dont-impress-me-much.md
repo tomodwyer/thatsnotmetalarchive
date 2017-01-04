@@ -13,7 +13,7 @@ soundcloud: "279932021"
 - [METALLICA: Making Of 'Hardwired' (Video)](http://www.blabbermouth.net/news/metallica-making-of-hardwired-video/)
 - [Watch Metallica Debut Punishing 'Hardwired' Live at Minneapolis Concert](http://www.rollingstone.com/music/news/see-metallica-debut-hardwired-live-at-minneapolis-concert-w435466)
 - [Jimmy Eat World return with new single “Get Right” — listen](http://consequenceofsound.net/2016/08/jimmy-eat-world-return-with-new-single-get-right-listen/)
-- [Dead! release new single Something More Original](http://teamrock.com/news/2016-08-23/dead-release-new-single-something-more-original-1)
+- [DEAD! Reveal Something More Original Video](http://www.kerrang.com/45205/dead-reveal-something-original-video/)
 
 
 ## Questions

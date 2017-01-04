@@ -10,7 +10,7 @@ soundcloud: "278901883"
 
 - [Metallica Just Dropped Their First New Song in 8 Years, a Thrashy Banger Called "Hardwired"](http://noisey.vice.com/blog/metallica-hardwired-new-song-2016-listen)
 - [Prophets of Rage Prep Debut EP 'The Party's Over'](http://www.rollingstone.com/music/news/prophets-of-rage-prep-debut-ep-the-partys-over-w434559)
-- [Mastodon want to get ‘more proggy’ on new album](http://teamrock.com/news/2016-08-13/mastodon-want-to-get-more-proggy-on-new-album)
+- [Mastodon's Brann Dailor Wants To "Get A Little More Proggy" On A New Album](http://www.metalinjection.net/upcoming-releases/mastodons-brann-dailor-wants-to-get-a-little-more-proggy-on-a-new-album)
 - [At the Drive-In to release new music, embark on world tour in 2016](http://consequenceofsound.net/2016/01/at-the-drive-in-to-release-new-music-embark-on-world-tour-in-2016/)
 - [20 Years Ago: Pantera Hit Their Most Extreme With ‘The Great Southern Trendkill’](http://loudwire.com/pantera-the-great-southern-trendkill-album-anniversary/)
 - [Limp Bizkit Have a Black Metal Logo Now](http://www.metalsucks.net/2016/08/12/limp-bizkit-black-metal-logo-now/)

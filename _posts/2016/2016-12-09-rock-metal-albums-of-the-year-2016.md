@@ -8,12 +8,12 @@ soundcloud: "296916607"
 
 ## News
 
-- [Metallica, Disturbed, Megadeth get 2017 Grammy nominations](http://teamrock.com/news/2016-12-07/metallica-disturbed-megadeth-get-2017-grammy-nominations)
-- [Guns N’ Roses reveal 2017 European, North American tour](http://teamrock.com/news/2016-12-05/guns-n-roses-reveal-2017-european-north-american-dates)
-- [Skindred, Annihilator for Bloodstock 2017](http://teamrock.com/news/2016-12-06/skindred-annihilator-for-bloodstock-2017)
-- [Alter Bridge, Clutch, Mastodon added to Download 2017 bill](http://teamrock.com/news/2016-12-02/alter-bridge-clutch-mastodon-added-to-download-2017-bill)
-- [Five Finger Death Punch's Ivan Moody in new stage meltdown](http://teamrock.com/news/2016-11-28/five-finger-death-punchs-ivan-moody-in-new-stage-meltdown)
-- [Gojira announce 2017 UK headline tour](http://teamrock.com/news/2016-12-03/gojira-announce-2017-uk-headline-tour)
+- [Metallica, Megadeth, Disturbed, Gojira, Korn and More Earn 2017 Grammy Nominations](http://loudwire.com/metallica-megadeth-disturbed-gojira-korn-and-more-earn-2017-grammy-nominations/)
+- [Guns N’ Roses Announce 2017 European + North American Tour Legs](http://loudwire.com/guns-n-roses-summer-2017-european-north-american-tour-legs/)
+- [SKINDRED – ANNIHILATOR – MUNICIPAL WASTE – CONFIRMED FOR BLOODSTOCK 2017](http://www.bloodstock.uk.com/news/skindred-annihilator-municipal-waste-confirmed-for-bloodstock-2017)
+- [Alter Bridge, Mastodon, Clutch + More Lead Second Wave of Download 2017 Bands](http://loudwire.com/alter-bridge-mastodon-clutch-more-second-wave-download-2017-bands/)
+- [FIVE FINGER DEATH PUNCH Show Ends Abruptly After Ivan Moody Could Not Continue Due To The Loss Of His Mother](http://www.metalinjection.net/latest-news/bummer-alert/five-finger-death-punch-show-ends-abruptly-after-ivan-moody-could-not-continue-due-to-the-loss-of-his-mother)
+- [Gojira Announce UK Headline Tour!](http://roadrunnerrecords.co.uk/2016/12/gojira-announce-uk-headline-tour/)
 - [The Interrupters Announce UK Tour](https://www.facebook.com/wearetheinterrupters/photos/a.449899978396179.140651.254567077929471/1331187156934119/?type=3&theater)
 
 ## Questions

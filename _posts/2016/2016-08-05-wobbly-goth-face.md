@@ -8,7 +8,7 @@ soundcloud: "276901725"
 
 ## News and track reviews
 
-- [Yashin announce split and blame 'cut-throat' music industry](http://teamrock.com/news/2016-08-04/yashin-announce-split-and-blame-cut-throat-music-industry)
+- [Yashin Are Splitting Up - News](http://www.rocksound.tv/news/read/yashin-are-splitting-up)
 - [Marilyn Manson Falls Off Stage: ‘He Was Obviously Inebriated’](http://www.alternativenation.net/marilyn-manson-falls-off-stage-obviously-inebriated/)
 - [The Dillinger Escape Plan: Listen To New Song 'Limerent Death'](http://www.blabbermouth.net/news/the-dillinger-escape-plan-listen-to-new-song-limerent-death/)
 - [Here's Your First Taste Of Opeth's New Album Sorceress](http://www.metalinjection.net/av/heres-your-first-taste-of-new-opeth)

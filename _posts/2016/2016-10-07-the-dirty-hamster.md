@@ -8,14 +8,14 @@ soundcloud: "286508250"
 
 ## News
 
-- [Green Day to headline 2017 British Summer Time](http://teamrock.com/news/2016-10-04/green-day-to-headline-2017-british-summer-time)
+- [Green Day to play London’s Barclaycard British Summer Time in Hyde Park](http://www.nme.com/news/music/green-day-351-1192836)
 - [Nova Rock announce headliners](https://twitter.com/NotMetalPod/status/783787683604725763)
 - [Creeper Are Alive And They’ve Announced Their Debut Album](http://www.kerrang.com/45462/creeper-alive-theyve-announced-debut-album/)
 - [Mastodon Begin Work on New Album With Producer Brendan O’Brien](http://loudwire.com/mastodon-new-album-producer-brendan-obrien/)
 - [Trent Reznor on the return of Nine Inch Nails: “2016 is not over yet”](http://consequenceofsound.net/2016/10/trent-reznor-on-the-return-of-nine-inch-nails-2016-is-not-over-yet/)
 - [Bruce Springsteen & Every Time I Die Launch No. 1 Albums on Rock Charts](http://www.billboard.com/articles/columns/chart-beat/7534043/bruce-springsteen-every-time-i-die-launch-no-1-albums-on-rock)
 - [Touché Amoré announce UK and European tour plans](http://diymag.com/2015/05/05/touche-amore-announce-uk-and-european-tour-plans)
-- [Architects recruit Sylosis mainman Josh Middleton](http://teamrock.com/news/2016-10-03/architects-recruit-sylosis-guitarist-josh-middleton)
+- [Sylosis To Go On Temporary Hiatus While Josh Middleton Joins Architects For Upcoming Tours](http://www.rocksins.com/2016/10/sylosis-go-temporary-hiatus-josh-middleton-joins-architects-upcoming-tours-29038/)
 
 
 ## Questions

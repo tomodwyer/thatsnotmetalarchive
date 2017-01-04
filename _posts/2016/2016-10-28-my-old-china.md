@@ -8,10 +8,10 @@ soundcloud: "290332808"
 
 ## News
 
-- [Avenged Sevenfold sneak release new album The Stage](http://teamrock.com/news/2016-10-28/avenged-sevenfold-sneak-release-new-album-the-stage)
-- [Danny Worsnop is back in Asking Alexandria as Stoff leaves](http://teamrock.com/news/2016-10-22/danny-worsnop-is-back-in-asking-alexandria-as-stoff-leaves)
-- [Megadeth's Dave Mustaine set for Christmas acoustic show](http://teamrock.com/news/2016-10-25/megadeths-dave-mustaine-set-for-christmas-acoustic-show)
-- [Lamb Of God honour late fan on The Duke EP](http://teamrock.com/news/2016-10-19/lamb-of-god-the-duke-ep-honour-fan-died-cancer-wayne-ford-randy-blythe)
+- [Avenged Sevenfold just surprise-released its new album about artificial intelligence](http://www.latimes.com/entertainment/music/la-et-ms-avenged-sevenfold-the-stage-20161027-story.html)
+- [Danny Worsnop Is Back In Asking Alexandria, Denis Stoff Leaves The Band](http://www.rocksound.tv/news/read/danny-worsnop-is-back-in-asking-alexandria-denis-stoff-leaves-the-band)
+- [MEGADETH's DAVE MUSTAINE To Play Special Acoustic Charity Show In Boston](http://www.blabbermouth.net/news/megadeth-dave-mustaine-to-play-special-acoustic-charity-show-in-boston/)
+- [LAMB OF GOD To Release 'The Duke' EP In Honor Of Fallen Fan](http://www.blabbermouth.net/news/lamb-of-god-to-release-the-duke-ep-in-honor-of-fallen-fan/)
 
 
 ## Questions

@@ -10,7 +10,7 @@ soundcloud: "282051031"
 
 - [That's Not Metal World Cup of Rock](https://www.facebook.com/thatsnotmetalpodcast/photos/a.1814755825417620.1073741828.1814737015419501/1949906775235857/?type=3)
 - [Code Orange call out Asking Alexandria: “F*ck their fake rockstar mentality”](http://www.altpress.com/news/entry/code_orange_call_out_asking_alexandria_fck_their_fake_rockstar_mentality)
-- [While She Sleeps premiere Civil Isolation](http://teamrock.com/news/2016-09-05/while-she-sleeps-premiere-civil-isolation)
+- [While She Sleeps Debut New Song “Civil Isolation”](http://www.theprp.com/2016/09/04/news/sleeps-debut-new-song-civil-isolation/)
 
 
 ## Questions

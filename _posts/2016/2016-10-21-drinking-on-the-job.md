@@ -8,7 +8,7 @@ soundcloud: "289255530"
 
 ## News
 
-- [Soundgarden Black Hole Rum ice cream announced](http://teamrock.com/news/2016-10-17/soundgarden-black-hole-rum-ice-cream-announced)
+- [Soundgarden Black Hole Rum ice cream announced](http://www.91x.com/tommy/soundgarden-black-hole-rum-ice-cream-announced/)
 - [Rock And Roll Hall of Fame announce 2017 nominees: Depeche Mode, Kraftwerk, Tupac and more](http://www.nme.com/news/rock-roll-hall-of-fame-announce-2017-nominations-depeche-mode-kraftwerk-tupac-more-1639572)
 - [The Nails Hiatus is Over](http://www.metalsucks.net/2016/10/14/the-nails-hiatus-is-over/)
 - [Superjoint's Phil Anselmo's First Longform Interview Since Dimebash](http://decibelmagazine.com/blog/2016/10/17/superjoints-phil-anselmos-first-longform-interview-since-dimebash)
