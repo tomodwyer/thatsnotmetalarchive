@@ -7,15 +7,15 @@ layout: default
       <header class="major">
         <h1>{{ page.title | escape }}</h1>
       </header>
-          {% assign categories = site.specials | sort: 'title' %}
-    {% for category in categories %}
-      <h2>{{ category.title }}</h2>
-      <ul>
-        {% for episode in category.episodes %}
-          <li><a href="{{ episode.link }}">{{ episode.title }}</a></li>
-        {% endfor %}
-      </ul>
-    {% endfor %}
+      {% assign categories = site.specials | sort: 'title' %}
+      {% for category in categories %}
+        <h2>{{ category.title }}</h2>
+        <ul>
+          {% for episode in category.episodes %}
+            <li><a href="{{ episode.link }}">{{ episode.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
     </div>
   </section>
 </div>

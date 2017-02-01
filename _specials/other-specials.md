@@ -14,8 +14,14 @@ episodes:
   - title: "A-Z of Awesome Part 1: A-L"
     link: "http://thatsnotmetal.net/products/a-z-of-awesome-part-1-a-k"
 
+  - title: "A-Z of Awesome Part 2: M-Z"
+    link: "http://thatsnotmetal.net/products/a-z-of-awesome-part-2-m-l"
+
   - title: "Beez: Room 101"
     link: "http://thatsnotmetal.net/products/beez-room-101"
+
+  - title: "Beginners Guide To Fugazi"
+    link: "http://thatsnotmetal.net/products/beginners-guide-to-fugazi"
 
   - title: "The Best & Worst of 2002 Part 1"
     link: "http://thatsnotmetal.net/products/the-best-worst-of-2002-part-1"
