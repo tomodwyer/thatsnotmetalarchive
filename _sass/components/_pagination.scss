@@ -1,0 +1,11 @@
+.pagination {
+  padding: 1rem 0;
+}
+
+.pagination__page {
+  display: block;
+}
+
+.pagination__change + .pagination__change {
+  margin-left: 1rem;
+}

@@ -1,4 +1,5 @@
 ---
+title: Show Notes
 layout: default
 ---
 
@@ -11,7 +12,7 @@ layout: default
 <div id="main">
   <section id="two" class="spotlights">
 
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
     <section>
       <div class="content">
         <div class="inner">
@@ -23,6 +24,18 @@ layout: default
       </div>
     </section>
     {% endfor %}
+
+    <div class="pagination align-center">
+      <span class="pagination__page">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="pagination__change">Previous Page</a>
+      {% endif %}
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="pagination__change">Next Page</a>
+      {% endif %}
+    </div>
 
   </section>
 </div>

@@ -7,6 +7,7 @@
 
 <nav id="menu">
   <ul class="links">
+    <li><a class="page-link" href="/shows/">Shows</a></li>
     {% for my_page in site.pages %}
       {% if my_page.title %}
       <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>

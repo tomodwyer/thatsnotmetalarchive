@@ -18,6 +18,9 @@ permalink: /show/:year-:month-:day-:title/
 collections:
 - specials
 
+# Pagination
+paginate: 10
+paginate_path: "/shows/page-:num/"
 
 # Site specific
 twitter: https://twitter.com/notmetalpod
