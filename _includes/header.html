@@ -7,10 +7,11 @@
 
 <nav id="menu">
   <ul class="links">
-    <li><a class="page-link" href="/shows/">Shows</a></li>
-    {% for my_page in site.pages %}
-      {% if my_page.title %}
-      <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+    {% for node in site.data.menu %}
+      {% if page.url == node.link  %}
+        <li class="active page-link"><a href="{{ node.link | relative_url }}">{{ node.title }}</a></li>
+      {% else %}
+        <li class="page-link"><a href="{{ node.link | relative_url }}">{{ node.title }}</a></li>
       {% endif %}
     {% endfor %}
   </ul>
