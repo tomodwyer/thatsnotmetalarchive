@@ -18,6 +18,9 @@ episodes:
   - title: "Sam Carter"
     link: "http://thatsnotmetal.net/collections/podcasts/products/sam-carter-album-roulette"
 
+  - title: Underrated Albums
+    link: https://thatsnotmetal.net/products/album-roulette-underrated-albums
+
   - title: "Winston McCall"
     link: "http://thatsnotmetal.net/collections/podcasts/products/winston-mccall-album-roulette"
 ---

@@ -62,6 +62,9 @@ episodes:
   - title: "Top 20 Metal Bands Ever Special (Part 2)"
     link: http://thatsnotmetal.net/products/top-20-metal-bands-ever-special-part-2
 
+  - title: The Worst Albums By The Best Bands
+    link: https://thatsnotmetal.net/products/the-worst-albums-by-the-best-bands
+
   - title: "The Worst Songs On The Best Albums"
     link: "http://thatsnotmetal.net/products/the-worst-songs-on-the-best-albums"
 ---
