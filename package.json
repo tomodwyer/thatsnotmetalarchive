@@ -1,0 +1,9 @@
+{
+  "name": "thatsnotmetalarchive",
+  "version": "0.1.0",
+  "description": "An unofficial collection of show notes and links from the That's Not Metal podcast.",
+  "main": "index.js",
+  "repository": "https://github.com/tomodwyer/thatsnotmetalarchive.git",
+  "author": "Tom O’Dwyer <git@tomodwyer.com>",
+  "license": "MIT"
+}
