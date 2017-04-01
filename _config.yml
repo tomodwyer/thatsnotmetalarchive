@@ -8,8 +8,12 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - gulpfile.js
   - LICENSE
+  - node_modules
+  - package.json
   - README.md
+  - yarn.lock
 include:
   - _pages
 google_analytics: UA-83926181-1
