@@ -9,10 +9,24 @@
   "dependencies": {
     "browser-sync": "^2.18.8",
     "del": "^2.2.2",
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2 || ^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
     "gulp": "^3.9.1",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
     "path": "^0.12.7",
-    "run-sequence": "^1.2.2"
+    "run-sequence": "^1.2.2",
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-order": "^0.4.3",
+    "stylelint-scss": "^1.4.3"
+  },
+  "scripts": {
+    "test:styles": "stylelint _sass/**/*.scss --config .stylelintrc --syntax scss",
+    "test:scripts": "eslint -c .eslintrc --ignore-path .gitignore **/*.js",
+    "test": "yarn run test:styles && yarn run test:scripts"
   }
 }
