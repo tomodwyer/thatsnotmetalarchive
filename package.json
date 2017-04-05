@@ -19,5 +19,8 @@
     "gulp-watch": "^4.3.11",
     "path": "^0.12.7",
     "run-sequence": "^1.2.2"
+  },
+  "scripts": {
+    "test": "eslint -c .eslintrc --ignore-path .gitignore **/*.js"
   }
 }
