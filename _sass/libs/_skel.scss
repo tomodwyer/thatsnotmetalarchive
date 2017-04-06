@@ -578,7 +578,7 @@ $vendor-values: (
       }
 
       // Create @media block.
-      @media screen and (#{map-get($breakpoints, $name)}) {
+      @media screen and #{map-get($breakpoints, $name)} {
         @include grid($grid-gutters, $name);
       }
     }
