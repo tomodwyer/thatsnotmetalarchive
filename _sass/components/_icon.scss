@@ -6,45 +6,46 @@
 
 /* Icon */
 
-	.icon {
-		@include icon;
-		border-bottom: none;
-		position: relative;
+.icon {
+  @include icon;
 
-		> .label {
-			display: none;
-		}
+  border-bottom: none;
+  position: relative;
 
-		&.alt {
-			&:before {
-				background-color: _palette(fg-bold);
-				border-radius: 100%;
-				color: _palette(bg);
-				display: inline-block;
-				height: 2em;
-				line-height: 2em;
-				text-align: center;
-				width: 2em;
-			}
-		}
-	}
+  > .label {
+    display: none;
+  }
 
-	a.icon {
-		&.alt {
-			&:before {
-				@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
-			}
+  &.alt {
+    &::before {
+      background-color: _palette(fg-bold);
+      border-radius: 100%;
+      color: _palette(bg);
+      display: inline-block;
+      height: 2em;
+      line-height: 2em;
+      text-align: center;
+      width: 2em;
+    }
+  }
+}
 
-			&:hover {
-				&:before {
-					background-color: _palette(accent1);
-				}
-			}
+a.icon {
+  &.alt {
+    &::before {
+      @include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
+    }
 
-			&:active {
-				&:before {
-					background-color: desaturate(darken(_palette(accent1), 15), 5);
-				}
-			}
-		}
-	}
+    &:hover {
+      &::before {
+        background-color: _palette(accent1);
+      }
+    }
+
+    &:active {
+      &::before {
+        background-color: desaturate(darken(_palette(accent1), 15), 5);
+      }
+    }
+  }
+}

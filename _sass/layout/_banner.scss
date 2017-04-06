@@ -11,6 +11,7 @@
   @include vendor('background-image', 'url("../../images/banner.jpg")');
   @include vendor('display', 'flex');
   @include padding(4em, 0, (2em, 0, 0, 0));
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,10 +25,11 @@
   position: relative;
   top: -3.25em;
 
-  &:after {
+  &::after {
     @include vendor('transition', 'opacity #{_duration(banner)} ease');
     @include vendor('transition-delay', '0.75s');
     @include vendor('pointer-events', 'none');
+
     background-color: _palette(bg);
     content: '';
     display: block;
@@ -46,11 +48,12 @@
 
   > .inner {
     @include vendor('transition', (
-    'opacity 1.5s ease',
-    'transform 0.5s ease-out',
-    'filter 0.5s ease',
-    '-webkit-filter 0.5s ease'
+      'opacity 1.5s ease',
+      'transform 0.5s ease-out',
+      'filter 0.5s ease',
+      '-webkit-filter 0.5s ease'
     ));
+
     padding: 0 !important;
     position: relative;
     z-index: 2;
@@ -65,7 +68,7 @@
       > :first-child {
         width: auto;
 
-        &:after {
+        &::after {
           max-width: 100%;
         }
       }
@@ -74,11 +77,12 @@
     .content {
       @include vendor('display', 'flex');
       @include vendor('align-items', 'center');
+
       margin: 0 0 _size(element-margin) 0;
 
       > * {
-        margin-left: 1.5em;
         margin-bottom: 0;
+        margin-left: 1.5em;
       }
 
       > :first-child {
@@ -96,29 +100,30 @@
 
   &.major {
     height: 75vh;
-    min-height: 30em;
     max-height: 50em;
+    min-height: 30em;
 
     &.alt {
       opacity: 0.75;
     }
   }
 
-  &.style1 { &:after { background-color: _palette(accent1); } }
-  &.style2 { &:after { background-color: _palette(accent2); } }
-  &.style3 { &:after { background-color: _palette(accent3); } }
-  &.style4 { &:after { background-color: _palette(accent4); } }
-  &.style5 { &:after { background-color: _palette(accent5); } }
-  &.style6 { &:after { background-color: _palette(accent6); } }
+  &.style1 { &::after { background-color: _palette(accent1); } }
+  &.style2 { &::after { background-color: _palette(accent2); } }
+  &.style3 { &::after { background-color: _palette(accent3); } }
+  &.style4 { &::after { background-color: _palette(accent4); } }
+  &.style5 { &::after { background-color: _palette(accent5); } }
+  &.style6 { &::after { background-color: _palette(accent6); } }
 
   body.is-loading & {
-    &:after {
-      opacity: 1.0;
+    &::after {
+      opacity: 1;
     }
 
     > .inner {
       @include vendor('filter', 'blur(0.125em)');
       @include vendor('transform', 'translateX(-0.5em)');
+
       opacity: 0;
     }
   }
@@ -129,6 +134,7 @@
 
   @include breakpoint(small) {
     @include padding(3em, 0, (2em, 0, 0, 0));
+
     height: auto;
     margin-bottom: -2.75em;
     max-height: none;
@@ -144,16 +150,16 @@
         display: block;
 
         > * {
-          margin-left: 0;
           margin-bottom: _size(element-margin);
+          margin-left: 0;
         }
       }
     }
 
     &.major {
       height: auto;
-      min-height: 0;
       max-height: none;
+      min-height: 0;
     }
   }
 
