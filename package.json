@@ -21,6 +21,7 @@
     "jquery.scrollex": "^0.2.1",
     "path": "^0.12.7",
     "run-sequence": "^1.2.2",
+    "skel-framework": "https://github.com/ajlkn/skel.git",
     "stylelint": "^7.10.1",
     "stylelint-config-standard": "^16.0.0",
     "stylelint-order": "^0.4.3",
