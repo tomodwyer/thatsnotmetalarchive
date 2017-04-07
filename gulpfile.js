@@ -3,8 +3,10 @@ const del = require('del');
 const exec = require('child_process').execSync;
 const gulp = require('gulp');
 const gutil = require('gulp-util');
+const include = require('gulp-include');
 const path = require('path');
 const runSequence = require('run-sequence');
+const uglify = require('gulp-uglify');
 const watch = require('gulp-watch');
 
 const paths = {
@@ -34,6 +36,22 @@ gulp.task('jekyll', () => {
   buildJekyll();
 });
 
+gulp.task('javascripts', () => {
+  const scriptsSrc = path.join('_assets', 'javascripts', 'application.js');
+  const scriptsDist = path.join('assets', 'js');
+
+  gulp.src(scriptsSrc)
+    .pipe(include({
+      includePaths: [
+        path.join('_assets', 'javascripts'),
+        `${__dirname}/node_modules`,
+      ],
+    }))
+      .on('error', console.log)
+    .pipe(uglify())
+    .pipe(gulp.dest(scriptsDist));
+});
+
 gulp.task('browserSync', () => {
   browserSync.init({
     server: {
@@ -58,6 +76,7 @@ gulp.task('watchJekyll', () => {
 gulp.task('default', () => {
   runSequence(
     'clean',
+    'javascripts',
     'jekyll',
     'browserSync',
     [
