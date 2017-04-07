@@ -73,6 +73,14 @@ gulp.task('watchJekyll', () => {
   });
 });
 
+gulp.task('build', () => {
+  runSequence(
+    'clean',
+    'javascripts',
+    'jekyll'
+  );
+});
+
 gulp.task('default', () => {
   runSequence(
     'clean',
