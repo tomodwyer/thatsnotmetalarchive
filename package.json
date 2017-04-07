@@ -17,6 +17,7 @@
     "gulp": "^3.9.1",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
+    "jquery": "1.11.3",
     "path": "^0.12.7",
     "run-sequence": "^1.2.2",
     "stylelint": "^7.10.1",
