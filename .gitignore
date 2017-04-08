@@ -102,3 +102,6 @@ typings/
 
 ### Project ###
 assets/js/application.js
+assets/css/application.css
+assets/css/ie8.css
+assets/css/ie9.css

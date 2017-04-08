@@ -1,3 +1,4 @@
+const autoprefixer = require('autoprefixer');
 const browserSync = require('browser-sync').create();
 const del = require('del');
 const exec = require('child_process').execSync;
@@ -5,7 +6,9 @@ const gulp = require('gulp');
 const gutil = require('gulp-util');
 const include = require('gulp-include');
 const path = require('path');
+const postcss = require('gulp-postcss');
 const runSequence = require('run-sequence');
+const sass = require('gulp-sass');
 const uglify = require('gulp-uglify');
 const watch = require('gulp-watch');
 
@@ -52,6 +55,26 @@ gulp.task('javascripts', () => {
     .pipe(gulp.dest(scriptsDist));
 });
 
+gulp.task('stylesheets', () => {
+  const styleSrc = path.join('_assets', 'stylesheets', '*.scss');
+  const styleDist = path.join('assets', 'css');
+
+  gulp.src(styleSrc)
+    .pipe(sass({
+      outputStyle: 'compressed',
+    }))
+    .pipe(postcss([
+      autoprefixer({
+        browsers: [
+          '> 1% in gb',
+          'ie >= 8',
+          'last 2 versions',
+        ],
+      }),
+    ]))
+    .pipe(gulp.dest(styleDist));
+});
+
 gulp.task('browserSync', () => {
   browserSync.init({
     server: {
@@ -77,6 +100,7 @@ gulp.task('build', () => {
   runSequence(
     'clean',
     'javascripts',
+    'stylesheets',
     'jekyll'
   );
 });
@@ -85,6 +109,7 @@ gulp.task('default', () => {
   runSequence(
     'clean',
     'javascripts',
+    'stylesheets',
     'jekyll',
     'browserSync',
     [
