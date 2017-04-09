@@ -13,26 +13,30 @@ const uglify = require('gulp-uglify');
 const watch = require('gulp-watch');
 
 const paths = {
-  dist: path.join(process.cwd(), '_site'),
-  src: process.cwd(),
-}
+  jekyll: {
+    dist: path.join(process.cwd(), 'public'),
+    src: path.join(process.cwd(), 'jekyll'),
+  },
+};
 
 function buildJekyll(incremental) {
-  gutil.log(`Source: ${paths.src} || Output: ${paths.dist}`);
+  gutil.log(`Source: ${paths.jekyll.src} || Output: ${paths.jekyll.dist}`);
 
-  let cmd = `bundle exec jekyll build --source ${paths.src} --destination ${paths.dist}`;
+  let cmd = `bundle exec jekyll build --source ${paths.jekyll.src} --destination ${paths.jekyll.dist}`;
 
   if (incremental === true) {
-    cmd += ' --incremental'
+    cmd += ' --incremental';
   }
 
-  const output = exec(cmd, {encoding: 'utf-8'});
+  const output = exec(cmd, {
+    encoding: 'utf-8',
+  });
   return gutil.log(`Jekyll: ${output}`);
 }
 
 gulp.task('clean', () => {
-  del.sync(paths.dist);
-  return gutil.log(`Deleted: ${paths.dist}`);
+  del.sync(paths.jekyll.dist);
+  return gutil.log(`Deleted: ${paths.jekyll.dist}`);
 });
 
 gulp.task('jekyll', () => {
@@ -40,13 +44,13 @@ gulp.task('jekyll', () => {
 });
 
 gulp.task('javascripts', () => {
-  const scriptsSrc = path.join('_assets', 'javascripts', 'application.js');
-  const scriptsDist = path.join('assets', 'js');
+  const scriptsSrc = path.join('assets', 'javascripts', 'application.js');
+  const scriptsDist = path.join('jekyll', 'assets', 'javascripts');
 
-  gulp.src(scriptsSrc)
+  return gulp.src(scriptsSrc)
     .pipe(include({
       includePaths: [
-        path.join('_assets', 'javascripts'),
+        path.join('assets', 'javascripts'),
         `${__dirname}/node_modules`,
       ],
     }))
@@ -56,10 +60,10 @@ gulp.task('javascripts', () => {
 });
 
 gulp.task('stylesheets', () => {
-  const styleSrc = path.join('_assets', 'stylesheets', '*.scss');
-  const styleDist = path.join('assets', 'css');
+  const styleSrc = path.join('assets', 'stylesheets', '*.scss');
+  const styleDist = path.join('jekyll', 'assets', 'stylesheets');
 
-  gulp.src(styleSrc)
+  return gulp.src(styleSrc)
     .pipe(sass({
       outputStyle: 'compressed',
     }))
@@ -78,10 +82,10 @@ gulp.task('stylesheets', () => {
 gulp.task('browserSync', () => {
   browserSync.init({
     server: {
-      baseDir: paths.dist
+      baseDir: paths.jekyll.dist,
     },
-    open: false
-  })
+    open: false,
+  });
 });
 
 gulp.task('watchJekyll', () => {
@@ -89,7 +93,7 @@ gulp.task('watchJekyll', () => {
     '**/*.md',
     '**/*.html',
     '**/*.yml',
-    '!_site/**/*'
+    '!public/**/*',
   ], () => {
     buildJekyll(true);
     browserSync.reload();

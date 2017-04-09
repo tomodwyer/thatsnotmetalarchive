@@ -101,7 +101,8 @@ typings/
 
 
 ### Project ###
-assets/js/application.js
-assets/css/application.css
-assets/css/ie8.css
-assets/css/ie9.css
+public/
+jekyll/assets/stylesheets/application.css
+jekyll/assets/stylesheets/ie8.css
+jekyll/assets/stylesheets/ie9.css
+jekyll/assets/javascripts/application.js
