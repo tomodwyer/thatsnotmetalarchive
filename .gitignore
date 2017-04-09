@@ -102,3 +102,7 @@ typings/
 
 ### Project ###
 public/
+jekyll/assets/stylesheets/application.css
+jekyll/assets/stylesheets/ie8.css
+jekyll/assets/stylesheets/ie9.css
+jekyll/assets/javascripts/application.js

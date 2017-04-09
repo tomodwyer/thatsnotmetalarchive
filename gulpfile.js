@@ -45,7 +45,7 @@ gulp.task('jekyll', () => {
 
 gulp.task('javascripts', () => {
   const scriptsSrc = path.join('assets', 'javascripts', 'application.js');
-  const scriptsDist = path.join('public', 'assets', 'js');
+  const scriptsDist = path.join('jekyll', 'assets', 'javascripts');
 
   return gulp.src(scriptsSrc)
     .pipe(include({
@@ -61,7 +61,7 @@ gulp.task('javascripts', () => {
 
 gulp.task('stylesheets', () => {
   const styleSrc = path.join('assets', 'stylesheets', '*.scss');
-  const styleDist = path.join('public', 'assets', 'css');
+  const styleDist = path.join('jekyll', 'assets', 'stylesheets');
 
   return gulp.src(styleSrc)
     .pipe(sass({
