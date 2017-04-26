@@ -29,6 +29,12 @@ episodes:
   - title: "The Best & Worst of 2002 Part 2"
     link: "http://thatsnotmetal.net/products/the-best-worst-of-2002-part-3"
 
+  - title: "The Best Albums From Each Year: 1980-1999"
+    link: https://thatsnotmetal.net/products/the-best-albums-from-each-year-1980-1999
+
+  - title: "The Best Albums From Each Year: 2000-2016"
+    link: https://thatsnotmetal.net/products/the-best-albums-from-each-year-2000-2016
+
   - title: "The Best Rock Documentaries Ever: Vol. 1"
     link: "http://thatsnotmetal.net/products/the-best-rock-documentaries-ever-vol-1"
 
