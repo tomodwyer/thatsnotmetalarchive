@@ -8,6 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^6.7.7",
+    "babel-preset-env": "^1.4.0",
     "browser-sync": "^2.18.8",
     "del": "^2.2.2",
     "eslint": "^3.15.0",
@@ -16,6 +17,7 @@
     "eslint-plugin-jsx-a11y": "^3.0.2 || ^4.0.0",
     "eslint-plugin-react": "^6.9.0",
     "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
     "gulp-include": "^2.3.1",
     "gulp-postcss": "^6.4.0",
     "gulp-sass": "^3.1.0",

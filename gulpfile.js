@@ -1,4 +1,5 @@
 const autoprefixer = require('autoprefixer');
+const babel = require('gulp-babel');
 const browserSync = require('browser-sync').create();
 const del = require('del');
 const exec = require('child_process').execSync;
@@ -55,6 +56,7 @@ gulp.task('javascripts', () => {
       ],
     }))
       .on('error', console.log)
+    .pipe(babel())
     .pipe(uglify())
     .pipe(gulp.dest(scriptsDist));
 });
