@@ -1,5 +1,4 @@
 const autoprefixer = require('autoprefixer');
-const babel = require('gulp-babel');
 const browserSync = require('browser-sync').create();
 const del = require('del');
 const exec = require('child_process').execSync;
@@ -10,7 +9,6 @@ const path = require('path');
 const postcss = require('gulp-postcss');
 const runSequence = require('run-sequence');
 const sass = require('gulp-sass');
-const uglify = require('gulp-uglify');
 const watch = require('gulp-watch');
 
 const paths = {
@@ -56,8 +54,6 @@ gulp.task('javascripts', () => {
       ],
     }))
       .on('error', console.log)
-    .pipe(babel())
-    .pipe(uglify())
     .pipe(gulp.dest(scriptsDist));
 });
 
