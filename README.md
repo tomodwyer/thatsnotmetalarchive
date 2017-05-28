@@ -23,7 +23,7 @@ Set up dependencies:
 - `yarn`
 
 Serve a local copy:
-- `./node_modules/.bin/gulp`
+- `yarn start`
 
 Build a production version:
-- `./node_modules/.bin/gulp build`
+- `yarn build`
