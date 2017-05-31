@@ -93,7 +93,7 @@ gulp.task('watchJekyll', () => {
     '**/*.yml',
     '!public/**/*',
   ], () => {
-    buildJekyll(true);
+    buildJekyll();
     browserSync.reload();
   });
 });
