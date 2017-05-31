@@ -19,7 +19,8 @@ include:
 google_analytics: UA-83926181-1
 permalink: /show/:year-:month-:day-:title/
 collections:
-- specials
+  - specials
+  - extras
 
 # Pagination
 paginate: 10

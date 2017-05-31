@@ -1,0 +1,29 @@
+---
+title: TNM Extra
+layout: default
+---
+
+<section id="banner" class="style2 banner--center banner--logo">
+  <div class="inner">
+    <h1>{{ page.title }}</h1>
+  </div>
+</section>
+
+<div id="main">
+  <section id="two" class="spotlights">
+
+    {% for post in site.extras reversed %}
+    <section>
+      <div class="content">
+        <div class="inner">
+          <header class="major">
+            <h3><a href="{{ post.url | relative_url }}" class="spotlight-link">{{ post.title | escape }}</a></h3>
+          </header>
+          <p>{{ post.description }}</p>
+        </div>
+      </div>
+    </section>
+    {% endfor %}
+
+  </section>
+</div>
