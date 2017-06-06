@@ -18,9 +18,14 @@ include:
   - _pages
 google_analytics: UA-83926181-1
 permalink: /show/:year-:month-:day-:title/
+
 collections:
-  - specials
-  - extras
+  specials:
+    output: true
+    permalink: /special/:year-:month-:day-:title/
+  extras:
+    output: true
+    permalink: /tnm-extra/:year-:month-:day-:title/
 
 # Pagination
 paginate: 10
