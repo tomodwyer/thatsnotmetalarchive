@@ -38,6 +38,12 @@ episodes:
   - title: "The Best Rock Documentaries Ever: Vol. 1"
     link: https://thatsnotmetal.net/products/the-best-rock-documentaries-ever-vol-1
 
+  - title: "Chris Cornell Special Part 1: Soundgarden"
+    link: https://thatsnotmetal.net/collections/podcasts/products/chris-cornell-special-part-1-soundgarden
+
+  - title: "Chris Cornell Special Part 2: Audioslave/Solo Career"
+    link: https://thatsnotmetal.net/products/chris-cornell-special-part-2-audioslave-solo-career
+
   - title: "Introduction to Black Metal"
     link: https://thatsnotmetal.net/products/introduction-to-black-metal
 
@@ -58,6 +64,9 @@ episodes:
 
   - title: "Soundtrack To Our Lives: Hill & Beez"
     link: https://thatsnotmetal.net/products/soundtrack-to-our-lives-hill-beez
+
+  - title: "TNM Live: Hill & Beez Unplanned. June, 2017"
+    link: https://thatsnotmetal.net/products/tnm-live-hill-beez-unplanned-june-2017
 
   - title: "Top 20 Albums Ever: That's Not Metal Live...ish"
     link: https://thatsnotmetal.net/products/copy-of-beez-meets-hill-2
