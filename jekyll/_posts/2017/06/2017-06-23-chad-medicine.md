@@ -2,7 +2,7 @@
 layout: post
 title: Chad Medicine
 date: 2017-06-23
-description: ill and Beez discuss this week's almighty rock beef between Nickelback's Chad Kroeger and Corey Taylor, review the new album from Royal Blood, report from Guns N Roses' Not In This Lifetime tour in London and Korn in LA, a report from last month's Slam Dunk festival, a look forward to the new Machine Head album and we welcome our extreme metal expert Tom Dare to discuss the new albums from Dying Fetus and Suffocation and get his rundown of the best albums from metal's underground in 2017.
+description: Hill and Beez discuss this week's almighty rock beef between Nickelback's Chad Kroeger and Corey Taylor, review the new album from Royal Blood, report from Guns N Roses' Not In This Lifetime tour in London and Korn in LA, a report from last month's Slam Dunk festival, a look forward to the new Machine Head album and we welcome our extreme metal expert Tom Dare to discuss the new albums from Dying Fetus and Suffocation and get his rundown of the best albums from metal's underground in 2017.
 soundcloud: 329604968
 ---
 
