@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<div id="main" class="alt">
+  <section id="one">
+    <div class="inner">
+      <header class="major">
+        <h1>{{ page.title | escape }}</h1>
+      </header>
+      {{ content }}
+      <form method="post" action="https://formspree.io/content@thatsnotmetalarchive.com">
+        <div class="field half first">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="field half">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email">
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="6"></textarea>
+        </div>
+        <ul class="actions">
+          <li><input type="submit" value="Send Message" class="special"></li>
+        </ul>
+      </form>
+    </div>
+  </section>
+</div>
