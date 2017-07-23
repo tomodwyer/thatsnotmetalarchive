@@ -16,10 +16,7 @@ article {
 header {
   &.major {
     margin-bottom: _size(element-margin);
-    width: -moz-max-content;
-    width: -webkit-max-content;
-    width: -ms-max-content;
-    width: max-content;
+    width: 100%;
 
     > :first-child {
       margin-bottom: 0;
@@ -41,6 +38,10 @@ header {
       letter-spacing: _font(letter-spacing-alt);
       margin-bottom: 0;
       text-transform: uppercase;
+    }
+
+    > h3 {
+      line-height: 1.3;
     }
 
     body.is-ie & {
