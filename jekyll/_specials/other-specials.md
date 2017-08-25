@@ -44,8 +44,14 @@ episodes:
   - title: "Chris Cornell Special Part 2: Audioslave/Solo Career"
     link: https://thatsnotmetal.net/products/chris-cornell-special-part-2-audioslave-solo-career
 
+  - title: Hill & Beez Album Roulette August 2017
+    link: https://thatsnotmetal.net/products/hill-beez-album-roulette-august-2017
+
   - title: "Introduction to Black Metal"
     link: https://thatsnotmetal.net/products/introduction-to-black-metal
+
+  - title: Lamb Of God Special
+    link: https://thatsnotmetal.net/products/lamb-of-god-special
 
   - title: "Letlive Career Special"
     link: https://thatsnotmetal.net/products/letlive-career-special
@@ -71,11 +77,17 @@ episodes:
   - title: "Top 20 Albums Ever: That's Not Metal Live...ish"
     link: https://thatsnotmetal.net/products/copy-of-beez-meets-hill-2
 
+  - title: Top 20 Albums Of 2014
+    link: https://thatsnotmetal.net/products/top-20-albums-of-2014
+
   - title: "Top 20 Albums Of The Noughties: Top 10"
     link: https://thatsnotmetal.net/products/top-20-albums-of-the-noughties-top-10
 
   - title: "Top 20 Albums Of The Noughties: 20-11"
     link: https://thatsnotmetal.net/products/top-20-albums-of-the-noughties-20-11
+
+  - title: Top 20 Live Bands Of All Time
+    link: https://thatsnotmetal.net/products/top-20-live-bands-of-all-time
 
   - title: "Top 20 Metal Bands Ever Special (Part 1)"
     link: https://thatsnotmetal.net/products/top-20-metal-bands-ever-special-part-1
