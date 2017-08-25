@@ -1,14 +1,11 @@
 {
-  "extends": [
-    "prettier"
-  ],
-  "plugins": [
-    "prettier"
-  ],
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
   "parserOptions": {
     "ecmaVersion": 2016
   },
   "env": {
+    "browser": true,
     "es6": true,
     "node": true
   },
