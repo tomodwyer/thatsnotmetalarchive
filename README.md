@@ -9,6 +9,7 @@ To run a local copy of this site you will need:
 
 - [Ruby](https://www.ruby-lang.org/)
 - [Node](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/en/)
 
 ## Contributing
 
@@ -19,10 +20,10 @@ To contribute, please add an issue or open a pull request.
 Set up dependencies:
 - `gem install bundler`
 - `bundle install`
-- `npm install`
+- `yarn`
 
 Serve a local copy:
-- `npm start`
+- `yarn start`
 
 Build a production version:
-- `npm run build`
+- `yarn build`

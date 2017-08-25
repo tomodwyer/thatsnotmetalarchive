@@ -32,10 +32,10 @@
     "stylelint-scss": "^1.4.4"
   },
   "scripts": {
-    "build": "./node_modules/.bin/gulp build",
-    "start": "./node_modules/.bin/gulp",
-    "test": "npm run test:styles && npm run test:scripts",
-    "test:scripts": "./node_modules/.bin/eslint -c .eslintrc ./assets/javascripts/**/*.js --fix",
-    "test:styles": "./node_modules/.bin/stylelint ./assets/stylesheets/**/*.scss --config .stylelintrc --syntax scss"
+    "build": "gulp build",
+    "start": "gulp",
+    "test": "yarn test:styles && yarn test:scripts",
+    "test:scripts": "eslint -c .eslintrc assets/javascripts/**/*.js --fix",
+    "test:styles": "stylelint assets/stylesheets/**/*.scss --config .stylelintrc --syntax scss"
   }
 }
