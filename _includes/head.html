@@ -6,8 +6,9 @@
   <title>{% if page.title %}{{ page.title | escape }} &mdash; {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  <!--[if lte IE 8]><script src="{{ "/dist/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
+  <!--[if lte IE 8]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.min.js" integrity="sha256-p0y9B7cfcYrdT+h+HUJPb3lMTObZc9x1DSTPN5ikmhg=" crossorigin="anonymous"></script><![endif]-->
   <link rel="stylesheet" href="{{ "/dist/css/main.css" | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
   <!--[if lte IE 9]><link rel="stylesheet" href="{{ "/dist/css/ie9.css" | relative_url }}"" /><![endif]-->
   <!--[if lte IE 8]><link rel="stylesheet" href="{{ "/dist/css/ie8.css" | relative_url }}" /><![endif]-->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
