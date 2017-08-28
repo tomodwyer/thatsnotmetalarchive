@@ -3,7 +3,7 @@ description: >
   This site is an unofficial collection of show notes and links from the That’s
   Not Metal podcast.
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
