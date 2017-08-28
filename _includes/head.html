@@ -6,10 +6,10 @@
   <title>{% if page.title %}{{ page.title | escape }} &mdash; {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  <!--[if lte IE 8]><script src="{{ "/assets/javascripts/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
-  <link rel="stylesheet" href="{{ "/assets/stylesheets/application.css" | relative_url }}">
-  <!--[if lte IE 9]><link rel="stylesheet" href="{{ "/assets/stylesheets/ie9.css" | relative_url }}"" /><![endif]-->
-  <!--[if lte IE 8]><link rel="stylesheet" href="{{ "/assets/stylesheets/ie8.css" | relative_url }}" /><![endif]-->
+  <!--[if lte IE 8]><script src="{{ "/dist/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
+  <link rel="stylesheet" href="{{ "/dist/css/main.css" | relative_url }}">
+  <!--[if lte IE 9]><link rel="stylesheet" href="{{ "/dist/css/ie9.css" | relative_url }}"" /><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" href="{{ "/dist/css/ie8.css" | relative_url }}" /><![endif]-->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 

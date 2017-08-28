@@ -6,7 +6,7 @@ banner:
   title: That's Not Metal Archive
   description: Show notes and links for every<br> That's Not Metal podcast episode.
   image:
-    link: /assets/images/tnm-logo.png
+    link: /dist/img/tnm-logo.png
   button:
     text: Read The Show Notes
     link: /shows/
@@ -16,13 +16,13 @@ upper:
     description: A collection of extra shows from the TNM team
     link: /extras/
     image:
-      link: /assets/img/about.jpg
+      link: /dist/img/about.jpg
       text: Picture of Hill and Beez
   - title: Specials
     description: Links to every special recorded by the That's Not Metal team
     link: /specials/
     image:
-      link: /assets/img/specials.jpg
+      link: /dist/img/specials.jpg
       text: Album art for the Hardcore special
 
 lower:
