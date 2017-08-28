@@ -98,11 +98,3 @@ typings/
 *.css.map
 
 # End of https://www.gitignore.io/api/jekyll,sass,macos,node
-
-
-### Project ###
-public/
-jekyll/assets/stylesheets/application.css
-jekyll/assets/stylesheets/ie8.css
-jekyll/assets/stylesheets/ie9.css
-jekyll/assets/javascripts/application.js

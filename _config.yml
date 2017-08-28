@@ -34,3 +34,7 @@ paginate_path: "/shows/page-:num/"
 # Site specific
 twitter: https://twitter.com/notmetalpod
 facebook: https://www.facebook.com/thatsnotmetalpodcast/
+
+# Styles
+sass:
+  style: compressed
