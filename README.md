@@ -8,8 +8,6 @@ An unofficial collection of show notes and links from the
 To run a local copy of this site you will need:
 
 - [Ruby](https://www.ruby-lang.org/)
-- [Node](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/en/)
 
 ## Contributing
 
@@ -20,10 +18,9 @@ To contribute, please add an issue or open a pull request.
 Set up dependencies:
 - `gem install bundler`
 - `bundle install`
-- `yarn`
 
 Serve a local copy:
-- `yarn start`
+- `bundle exec jekyll serve`
 
 Build a production version:
-- `yarn build`
+- `bundle exec jekyll build`
