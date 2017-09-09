@@ -7,3 +7,6 @@
 <!--[if lte IE 8]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
 <![endif]-->
+{% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+{% endif %}
