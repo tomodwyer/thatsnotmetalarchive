@@ -12,6 +12,7 @@ exclude:
   - README.md
 include:
   - _pages
+  - _headers
 google_analytics: UA-83926181-1
 permalink: /show/:year-:month-:day-:title/
 
