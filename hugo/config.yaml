@@ -1,6 +1,10 @@
-baseURL: /
+baseURL: https://www.thatsnotmetalarchive.com/
 languageCode: en-gb
 title: That's Not Metal Archive
-description: >
-  This site is an unofficial collection of show notes and links from the That’s
-  Not Metal podcast.
+
+params:
+  twitter: https://twitter.com/notmetalpod
+  facebook: https://www.facebook.com/thatsnotmetalpodcast/
+  description: >
+    This site is an unofficial collection of show notes and links from the That’s
+    Not Metal podcast.
