@@ -1,0 +1,28 @@
+{
+  "name": "thatsnotmetalarchive",
+  "version": "0.0.1",
+  "description": "Show notes and links for every That's Not Metal podcast episode",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "node-sass --output-style compressed assets/scss/ --output static/css/",
+    "build:hugo": "hugo",
+    "build": "npm run build:css && npm run build:hugo",
+    "start:css": "node-sass --watch --recursive --source-map-embed assets/scss/ --output static/css/",
+    "start:hugo": "hugo server -D",
+    "start": "concurrently \"npm run start:css\" \"npm run start:hugo\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomodwyer/thatsnotmetalarchive.git"
+  },
+  "author": "Tom O'Dwyer <git@tomodwyer.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomodwyer/thatsnotmetalarchive/issues"
+  },
+  "homepage": "https://github.com/tomodwyer/thatsnotmetalarchive#readme",
+  "dependencies": {
+    "concurrently": "^3.5.0",
+    "node-sass": "^4.5.3"
+  }
+}
