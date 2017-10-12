@@ -211,7 +211,7 @@
 }
 
 #banner.banner--logo {
-  @include vendor('background-image', 'url("/dist/img/tnm-logo.jpg")');
+  @include vendor('background-image', 'url("/img/tnm-logo.jpg")');
 
   &::after {
     opacity: 0.9;

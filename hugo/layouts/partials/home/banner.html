@@ -1,0 +1,13 @@
+<section id="banner" class="major banner--logo">
+  <div class="inner">
+    <header class="major">
+      <h1>{{ .Page.Params.banner.title }}</h1>
+    </header>
+    <div class="content">
+      <p>{{ .Page.Params.banner.description | safeHTML }}</p>
+      <ul class="actions">
+        <li><a href="{{ .Page.Params.banner.button.link }}" class="button next">{{ .Page.Params.banner.button.text }}</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
