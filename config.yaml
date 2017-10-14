@@ -1,0 +1,14 @@
+baseURL: /
+languageCode: en-gb
+title: That's Not Metal Archive
+disableLiveReload: true
+
+params:
+  twitter: https://twitter.com/notmetalpod
+  facebook: https://www.facebook.com/thatsnotmetalpodcast/
+  description: >
+    This site is an unofficial collection of show notes and links from the That’s
+    Not Metal podcast.
+
+permalinks:
+  shows: /shows/:year-:month-:day-:title/

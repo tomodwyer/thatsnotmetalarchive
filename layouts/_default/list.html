@@ -1,0 +1,38 @@
+{{ define "main" }}
+<section id="banner" class="style2 banner--center banner--logo">
+  <div class="inner">
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+
+<div id="main">
+  <section id="two" class="spotlights">
+
+    {{ range (.Paginator 10).Pages }}
+      <section>
+        <div class="content">
+          <div class="inner">
+            <header class="major">
+              <h3><a href="{{ .Permalink }}" class="spotlight-link">{{ .Title }}</a></h3>
+            </header>
+            <p>{{ .Params.description }}</p>
+          </div>
+        </div>
+      </section>
+    {{ end }}
+
+    <div class="pagination align-center">
+      <span class="pagination__page">Page: {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
+
+      {{ if .Paginator.HasPrev }}
+        <a href="{{ .Paginator.Prev.URL }}" class="pagination__change">Previous Page</a>
+      {{ end }}
+
+      {{ if .Paginator.HasNext }}
+        <a href="{{ .Paginator.Next.URL }}" class="pagination__change">Next Page</a>
+      {{ end }}
+    </div>
+
+  </section>
+</div>
+{{ end }}

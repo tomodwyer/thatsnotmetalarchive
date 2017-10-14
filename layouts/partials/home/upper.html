@@ -1,0 +1,14 @@
+<section id="one" class="tiles">
+  {{ range .Params.upper }}
+    <article>
+      <a href="{{ .link }}" class="tiles-link"></a>
+      <span class="image">
+        <img src="{{ .image.link }}" alt="{{ .image.text}}" />
+      </span>
+      <header class="major">
+        <h3>{{ .title }}</h3>
+        <p>{{ .description }}</p>
+      </header>
+    </article>
+  {{ end }}
+</section>
