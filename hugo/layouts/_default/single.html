@@ -4,8 +4,16 @@
       <div class="inner">
         <header class="major">
           <h1>{{ .Page.Title }}</h1>
+          <p class="post-meta">
+            <time datetime="{{ dateFormat "2006-02-01T15:04:05-07:00" .Page.Date }}" itemprop="datePublished">
+              {{ dateFormat "02 January 2006" .Page.Date }}
+            </time>
+          </p>
         </header>
+        <p>{{ .Page.Description }}</p>
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ .Page.Params.soundcloud }}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
         {{ .Content }}
+        <p><a href="/shows/" class="button small">Back to Show Notes</a></p>
       </div>
     </section>
   </div>
