@@ -1,2 +1,2 @@
 /show/*         /shows/:splat
-/tnm-extras/*   /extras/:splat
+/tnm-extra/*   /extras/:splat
