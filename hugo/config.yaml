@@ -9,3 +9,6 @@ params:
   description: >
     This site is an unofficial collection of show notes and links from the That’s
     Not Metal podcast.
+
+permalinks:
+  shows: /shows/:year-:month-:day-:title/
