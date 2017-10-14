@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <div id="main" class="alt">
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h1>{{ .Title }}</h1>
+        </header>
+        {{ range .Pages }}
+          <h2>{{ .Title }}</h2>
+          <ul>
+            {{ range .Params.Episodes }}
+              <li><a href="{{ .link }}">{{ .title }}</a></li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+{{ end }}
