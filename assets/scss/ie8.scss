@@ -17,8 +17,8 @@
   &.next {
     padding-right: 1.75em;
 
-    &:before,
-    &:after {
+    &::before,
+    &::after {
       display: none;
     }
   }
@@ -28,9 +28,10 @@
 
 .tiles {
   article {
-    width: 50%;
-    -ms-behavior: url('dist/js/ie/backgroundsize.min.htc');
     background-size: cover;
+    -ms-behavior: url('dist/js/ie/backgroundsize.min.htc');
+    behavior: url('dist/js/ie/backgroundsize.min.htc');
+    width: 50%;
   }
 }
 
@@ -39,7 +40,7 @@
 #banner {
   -ms-behavior: url('dist/js/ie/backgroundsize.min.htc');
 
-  &:after {
+  &::after {
     display: none;
   }
 }

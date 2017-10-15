@@ -113,26 +113,31 @@
       background-color: _palette(accent1);
     }
   }
+
   &.style2 {
     &::after {
       background-color: _palette(accent2);
     }
   }
+
   &.style3 {
     &::after {
       background-color: _palette(accent3);
     }
   }
+
   &.style4 {
     &::after {
       background-color: _palette(accent4);
     }
   }
+
   &.style5 {
     &::after {
       background-color: _palette(accent5);
     }
   }
+
   &.style6 {
     &::after {
       background-color: _palette(accent6);

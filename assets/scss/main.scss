@@ -10,37 +10,38 @@
 */
 
 @include skel-breakpoints((
-    xlarge: '(max-width: 1680px)',
-    large: '(max-width: 1280px)',
-    medium: '(max-width: 980px)',
-    small: '(max-width: 736px)',
-    xsmall: '(max-width: 480px)',
-    xxsmall: '(max-width: 360px)'
-  ));
-
+  xlarge: '(max-width: 1680px)',
+  large: '(max-width: 1280px)',
+  medium: '(max-width: 980px)',
+  small: '(max-width: 736px)',
+  xsmall: '(max-width: 480px)',
+  xxsmall: '(max-width: 360px)'
+));
 @include skel-layout((
-    reset: 'full',
-    boxModel: 'border',
-    grid: ( gutters: 2em ),
-    breakpoints: (
-      large: (
-        grid: ( gutters: 1.5em )
-      ),
-      small: (
-        grid: ( gutters: 1.25em )
-      )
+  reset: 'full',
+  boxModel: 'border',
+  grid: ( gutters: 2em ),
+  breakpoints: (
+    large: (
+      grid: ( gutters: 1.5em )
+    ),
+    small: (
+      grid: ( gutters: 1.25em )
     )
-  ));
+  )
+));
 
 @mixin inner {
   > .inner {
     @include padding(4em, 0);
+
     margin: 0 auto;
     max-width: _size(inner);
     width: calc(100% - 6em);
 
     @include breakpoint(small) {
       @include padding(3em, 0);
+
       width: calc(100% - 3em);
     }
   }
