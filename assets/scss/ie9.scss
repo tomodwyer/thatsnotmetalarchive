@@ -11,105 +11,107 @@
 
 /* Spotlights */
 
-	.spotlights {
-		> section {
-			&:after {
-				content: '';
-				display: block;
-				clear: both;
-			}
+.spotlights {
+  > section {
+    &::after {
+      clear: both;
+      content: '';
+      display: block;
+    }
 
-			> .image {
-				float: left;
-			}
+    > .image {
+      float: left;
+    }
 
-			> .content {
-				float: left;
-			}
-		}
-	}
+    > .content {
+      float: left;
+    }
+  }
+}
 
 /* Tiles */
 
-	.tiles {
-		&:after {
-			content: '';
-			display: block;
-			clear: both;
-		}
+.tiles {
+  &::after {
+    clear: both;
+    content: '';
+    display: block;
+  }
 
-		article {
-			@include padding(8em, 4em);
-			float: left;
-			height: auto;
-			max-height: none;
-			min-height: 0;
-		}
-	}
+  article {
+    @include padding(8em, 4em);
+
+    float: left;
+    height: auto;
+    max-height: none;
+    min-height: 0;
+  }
+}
 
 /* Header */
 
-	#header {
-		.logo {
-			position: absolute;
-			top: 0;
-			left: 0;
-		}
+#header {
+  .logo {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
 
-		nav {
-			position: absolute;
-			top: 0;
-			right: 0;
-		}
-	}
+  nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
 
 /* Banner */
 
-	#banner {
-		@include padding(6em, 0, (1em, 0, 0, 0));
-		background-attachment: scroll;
-		height: auto;
-		max-height: none;
-		min-height: 0;
+#banner {
+  @include padding(6em, 0, (1em, 0, 0, 0));
 
-		> .inner {
-			.content {
-				display: block;
+  background-attachment: scroll;
+  height: auto;
+  max-height: none;
+  min-height: 0;
 
-				> * {
-					margin-left: 0;
-					margin: 0 0 _size(element-margin) 0;
-				}
-			}
-		}
+  > .inner {
+    .content {
+      display: block;
 
-		&.major {
-			height: auto;
-			max-height: none;
-			min-height: 0;
-		}
-	}
+      > * {
+        margin: 0 0 _size(element-margin) 0;
+        margin-left: 0;
+      }
+    }
+  }
+
+  &.major {
+    height: auto;
+    max-height: none;
+    min-height: 0;
+  }
+}
 
 /* Contact */
 
-	#contact {
-		&:after {
-			content: '';
-			display: block;
-			clear: both;
-		}
+#contact {
+  &::after {
+    clear: both;
+    content: '';
+    display: block;
+  }
 
-		> .inner {
-			> * {
-				float: left;
-			}
-		}
-	}
+  > .inner {
+    > * {
+      float: left;
+    }
+  }
+}
 
 /* Menu */
 
-	#menu {
-		.inner {
-			margin: 0 auto;
-		}
-	}
+#menu {
+  .inner {
+    margin: 0 auto;
+  }
+}
