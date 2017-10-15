@@ -10,7 +10,8 @@
     "start:css": "node-sass --watch --recursive --source-map-embed assets/scss/ --output static/css/",
     "start:hugo": "hugo server -D",
     "start": "concurrently \"npm run start:css\" \"npm run start:hugo\"",
-    "test": "npm run test:eslint",
+    "test": "npm run test:eslint && npm run test:css",
+    "test:css": "stylelint --config .stylelintrc.json assets/**/*.scss",
     "test:eslint": "eslint --config .eslintrc.json assets/**/*.js *.js"
   },
   "repository": {
@@ -34,6 +35,10 @@
     "eslint-plugin-react": "^7.4.0",
     "node-sass": "^4.5.3",
     "prettier": "^1.7.4",
-    "prettier-eslint": "^8.2.1"
+    "prettier-eslint": "^8.2.1",
+    "stylelint": "^8.2.0",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-order": "^0.7.0",
+    "stylelint-scss": "^2.1.0"
   }
 }
