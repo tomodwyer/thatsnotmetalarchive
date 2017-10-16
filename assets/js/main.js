@@ -1,5 +1,5 @@
-import "./jquery.scrolly/jquery.scrolly";
-import "./jquery.scrollex/jquery.scrollex";
-import "./util";
-import "./forty";
-import "./ga";
+import "./vendor/jquery.scrolly";
+import "./vendor/jquery.scrollex";
+import "./vendor/util";
+import "./vendor/forty";
+import "./vendor/ga";
