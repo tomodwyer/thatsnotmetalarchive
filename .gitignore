@@ -71,3 +71,5 @@ typings/
 
 ### Project ###
 /static/css/
+/static/js/
+/data/assets.json
