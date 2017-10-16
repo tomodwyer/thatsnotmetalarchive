@@ -160,7 +160,11 @@
 
       // Link.
       if ($link.length > 0) {
-        $x = $link.clone().text("").addClass("primary").appendTo($this);
+        $x = $link
+          .clone()
+          .text("")
+          .addClass("primary")
+          .appendTo($this);
 
         $link = $link.add($x);
 

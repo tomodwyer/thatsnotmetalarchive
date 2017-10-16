@@ -1,11 +1,6 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="{{ "js/jquery.scrolly/jquery.scrolly.min.js" | absURL }}"></script>
-<script src="{{ "js/jquery.scrollex/jquery.scrollex.min.js" | absURL }}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js" integrity="sha256-3e+NvOq+D/yeJy1qrWpYkEUr6SlOCL5mHpc2nZfX74E=" crossorigin="anonymous"></script>
-<script src="{{ "js/util.js" | absURL }}"></script>
-<script src="{{ "js/main.js" | absURL }}"></script>
 <!--[if lte IE 8]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
-<![endif]-->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-83926181-1"></script>
-<script src="{{ "js/ga.js" | absURL }}"></script>
+  <![endif]-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83926181-1"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js" integrity="sha256-3e+NvOq+D/yeJy1qrWpYkEUr6SlOCL5mHpc2nZfX74E=" crossorigin="anonymous"></script>
+  <script src="{{ .Site.BaseURL }}{{ index .Site.Data.assets "js.js" }}"></script>
