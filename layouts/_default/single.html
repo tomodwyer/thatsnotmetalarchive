@@ -3,7 +3,7 @@
     <section id="one">
       <div class="inner">
         <header class="major">
-          <h1>{{ .Page.Title }}</h1>
+          <h1>{{ if eq .Page.Type "extras" }}TNM Extra:{{ end }} {{ .Page.Title }}</h1>
           <p class="post-meta">
             <time datetime="{{ dateFormat "2006-02-01T15:04:05-07:00" .Page.Date }}" itemprop="datePublished">
               {{ dateFormat "02 January 2006" .Page.Date }}

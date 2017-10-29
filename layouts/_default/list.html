@@ -13,7 +13,11 @@
         <div class="content">
           <div class="inner">
             <header class="major">
-              <h3><a href="{{ .Permalink }}" class="spotlight-link">{{ .Title }}</a></h3>
+              <h3>
+                <a href="{{ .Permalink }}" class="spotlight-link">
+                  {{ if eq .Type "extras" }}TNM Extra:{{ end }} {{ .Title }}
+                </a>
+              </h3>
             </header>
             <p>{{ .Params.description }}</p>
           </div>
