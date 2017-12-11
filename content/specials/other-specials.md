@@ -17,6 +17,9 @@ episodes:
   - title: "A-Z of Awesome Part 2: M-Z"
     link: https://thatsnotmetal.net/products/a-z-of-awesome-part-2-m-l
 
+  - title: "Battle Special: USA vs UK"
+    link: https://thatsnotmetal.net/products/battle-special-usa-vs-uk
+
   - title: "Beez: Room 101"
     link: https://thatsnotmetal.net/products/beez-room-101
 
@@ -56,6 +59,9 @@ episodes:
   - title: "Letlive Career Special"
     link: https://thatsnotmetal.net/products/letlive-career-special
 
+  - title: Master Of Puppets Special
+    link: https://soundcloud.com/hillandbeez/master-of-puppets-special
+
   - title: "Noughties Debut Vol. 1"
     link: https://thatsnotmetal.net/products/noughties-debut-vol-1
 
@@ -70,6 +76,15 @@ episodes:
 
   - title: "Soundtrack To Our Lives: Hill & Beez"
     link: https://thatsnotmetal.net/products/soundtrack-to-our-lives-hill-beez
+
+  - title: TNM Album Club...By Request
+    link: https://thatsnotmetal.net/products/tnm-album-club-by-request
+
+  - title: TNM Battle Special
+    link: https://thatsnotmetal.net/products/tnm-battle-special
+
+  - title: TNM Goes To The Movies
+    link: https://thatsnotmetal.net/products/tnm-goes-to-the-movies
 
   - title: "TNM Live: Hill & Beez Unplanned. June, 2017"
     link: https://thatsnotmetal.net/products/tnm-live-hill-beez-unplanned-june-2017
