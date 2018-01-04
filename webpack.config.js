@@ -42,10 +42,6 @@ module.exports = env => {
                 options: { sourceMap: isDev }
               },
               {
-                loader: "postcss-loader",
-                options: { sourceMap: isDev }
-              },
-              {
                 loader: "sass-loader",
                 options: { sourceMap: isDev }
               }
