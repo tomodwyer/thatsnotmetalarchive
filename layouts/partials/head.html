@@ -5,6 +5,7 @@
 
   <title>{{ if .Params.title }}{{ .Params.title }} &mdash; {{ end }}{{ .Site.Title }}</title>
   <meta name="description" content="{{ index .Params "description" | default .Site.Params.description }}">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://widget.sndcdn.com https://cdnjs.cloudflare.com https://www.google-analytics.com https://www.googletagmanager.com; style-src 'self' https://cdnjs.cloudflare.com; img-src 'self' data: *; font-src https://cdnjs.cloudflare.com; frame-src https://w.soundcloud.com;">
 
   <!--[if lte IE 8]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.min.js" integrity="sha256-p0y9B7cfcYrdT+h+HUJPb3lMTObZc9x1DSTPN5ikmhg=" crossorigin="anonymous"></script><![endif]-->
   <link rel="stylesheet" href="{{ .Site.BaseURL }}{{ index .Site.Data.assets "css.css" }}">
