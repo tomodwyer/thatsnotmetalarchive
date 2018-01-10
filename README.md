@@ -35,7 +35,7 @@ $ npm run build
 
 ### Deploy the site
 
-The site is deployed via [Netlify](https://www.netlify.com).
+The site is deployed via [Surge](https://surge.sh) from the command line.
 
 ## Contributing
 
