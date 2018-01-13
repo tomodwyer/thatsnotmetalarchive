@@ -6,12 +6,11 @@
   <title>{{ if .Params.title }}{{ .Params.title }} &mdash; {{ end }}{{ .Site.Title }}</title>
   <meta name="description" content="{{ index .Params "description" | default .Site.Params.description }}">
 
-  {{ $pag := .Paginate .Data.Pages }}
-  {{ if $pag.HasPrev }}
-    <link rel="canonical" href="{{ .Paginator.URL | absURL}}" />
+  {{ if eq .Kind "section" }}
+    <link rel="canonical" href="{{ .Paginator.URL | absURL }}" />
   {{ else }}
     <link rel="canonical" href="{{ .Permalink }}" />
-  {{end}}
+  {{ end }}
 
   <!--[if lte IE 8]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.min.js" integrity="sha256-p0y9B7cfcYrdT+h+HUJPb3lMTObZc9x1DSTPN5ikmhg=" crossorigin="anonymous"></script><![endif]-->
   <link rel="stylesheet" href="{{ .Site.BaseURL }}{{ index .Site.Data.assets "css.css" }}">
