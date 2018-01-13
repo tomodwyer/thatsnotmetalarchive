@@ -1,0 +1,2 @@
+/show/*         /shows/:splat
+/tnm-extra/*    /extras/:splat
