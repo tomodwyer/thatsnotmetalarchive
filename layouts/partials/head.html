@@ -6,12 +6,6 @@
   <title>{{ if .Params.title }}{{ .Params.title }} &mdash; {{ end }}{{ .Site.Title }}</title>
   <meta name="description" content="{{ index .Params "description" | default .Site.Params.description }}">
 
-  {{ if eq .Kind "section" }}
-    <link rel="canonical" href="{{ .Paginator.URL | absURL }}" />
-  {{ else }}
-    <link rel="canonical" href="{{ .Permalink }}" />
-  {{ end }}
-
   <!--[if lte IE 8]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.min.js" integrity="sha256-p0y9B7cfcYrdT+h+HUJPb3lMTObZc9x1DSTPN5ikmhg=" crossorigin="anonymous"></script><![endif]-->
   <link rel="stylesheet" href="{{ .Site.BaseURL }}{{ index .Site.Data.assets "css.css" }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />

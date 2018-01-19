@@ -1,4 +1,4 @@
-baseURL: https://www.thatsnotmetalarchive.com/
+baseURL: /
 languageCode: en-gb
 title: That's Not Metal Archive
 disableLiveReload: true
