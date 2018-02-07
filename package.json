@@ -1,16 +1,19 @@
 {
   "name": "thatsnotmetalarchive",
   "version": "0.0.1",
-  "description": "Show notes and links for every That's Not Metal podcast episode",
+  "description":
+    "Show notes and links for every That's Not Metal podcast episode",
   "main": "index.js",
   "scripts": {
-    "build:hugo": "hugo",
-    "build": "webpack --env=prod -p",
-    "start:hugo": "hugo server -D",
-    "start": "webpack --env=dev --watch",
-    "test": "npm run test:eslint && npm run test:css",
+    "build": "npm run build-assets && npm run build-hugo",
+    "build-assets": "webpack --env=prod -p",
+    "build-hugo": "hugo",
+    "start": "concurrently \"npm run start-assets\" \"npm run start-hugo\"",
+    "start-assets": "webpack --env=dev --watch",
+    "start-hugo": "hugo server -D",
+    "test": "npm run test:js & npm run test:css",
     "test:css": "stylelint --config .stylelintrc.json assets/**/*.scss",
-    "test:eslint": "eslint --config .eslintrc.json assets/**/*.js *.js"
+    "test:js": "eslint --config .eslintrc.json assets/**/*.js *.config.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +30,7 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "clean-webpack-plugin": "^0.1.18",
+    "concurrently": "^3.5.1",
     "css-loader": "^0.28.9",
     "eslint": "^4.17.0",
     "eslint-config-airbnb": "^16.1.0",
@@ -48,7 +52,6 @@
     "stylelint-order": "^0.8.0",
     "stylelint-scss": "^2.2.0",
     "webpack": "^3.10.0",
-    "webpack-manifest-plugin": "^1.3.2",
-    "webpack-shell-plugin": "^0.5.0"
+    "webpack-manifest-plugin": "^1.3.2"
   }
 }

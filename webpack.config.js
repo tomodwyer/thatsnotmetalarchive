@@ -1,7 +1,6 @@
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const ManifestPlugin = require("webpack-manifest-plugin");
-const WebpackShellPlugin = require("webpack-shell-plugin");
 const path = require("path");
 const webpack = require("webpack");
 
@@ -12,7 +11,6 @@ const extractSass = new ExtractTextPlugin({
 
 module.exports = env => {
   const isDev = env === "dev";
-  const isProd = env === "prod";
 
   return {
     devtool: isDev ? "inline-source-map" : false,
@@ -62,9 +60,6 @@ module.exports = env => {
         $: "jquery",
         jQuery: "jquery",
         "window.jQuery": "jquery"
-      }),
-      new WebpackShellPlugin({
-        onBuildEnd: isProd ? "npm run build:hugo" : "npm run start:hugo"
       })
     ]
   };
