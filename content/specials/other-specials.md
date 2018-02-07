@@ -5,6 +5,9 @@ episodes:
   - title: "10 Things We Hate About Our Favourite Bands"
     link: https://thatsnotmetal.net/products/10-things-we-hate-about-our-favourite-bands
 
+  - title: "Ascendancy vs The End Of Heartache: Battle Special"
+    link: https://thatsnotmetal.net/products/ascendancy-vs-the-end-of-heartache-battle-special
+
   - title: "The A-Z of Awful Part 1"
     link: https://thatsnotmetal.net/collections/podcasts/products/copy-of-beez-meets-hill
 
