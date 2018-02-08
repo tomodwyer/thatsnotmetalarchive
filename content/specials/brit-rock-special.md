@@ -16,4 +16,7 @@ episodes:
 
   - title: "Brit Rock Special: Wave 3 2001-2012 (Part 1)"
     link: https://thatsnotmetal.net/products/brit-rock-special-wave-3-2001-2012-part-1
+
+  - title: "Brit Rock Special: Wave 3 2001-2012 (Part 2)"
+    link: https://thatsnotmetal.net/products/brit-rock-special-wave-3-2001-2012-part-2
 ---

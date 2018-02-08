@@ -1,7 +1,7 @@
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/skel';
+@import "libs/vars";
+@import "libs/functions";
+@import "libs/mixins";
+@import "libs/skel";
 
 /*
 	Forty by HTML5 UP
@@ -15,7 +15,7 @@
   > section {
     &::after {
       clear: both;
-      content: '';
+      content: "";
       display: block;
     }
 
@@ -34,7 +34,7 @@
 .tiles {
   &::after {
     clear: both;
-    content: '';
+    content: "";
     display: block;
   }
 
@@ -64,6 +64,22 @@
   }
 }
 
+/* Contact */
+
+#contact {
+  &::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+
+  > .inner {
+    > * {
+      float: left;
+    }
+  }
+}
+
 /* Banner */
 
 #banner {
@@ -89,22 +105,6 @@
     height: auto;
     max-height: none;
     min-height: 0;
-  }
-}
-
-/* Contact */
-
-#contact {
-  &::after {
-    clear: both;
-    content: '';
-    display: block;
-  }
-
-  > .inner {
-    > * {
-      float: left;
-    }
   }
 }
 
