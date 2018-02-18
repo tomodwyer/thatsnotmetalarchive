@@ -7,8 +7,9 @@ An unofficial collection of show notes and links from the
 
 To run a local copy of this site you will need:
 
-- [Hugo](https://gohugo.io/)
-- [Node.js](https://nodejs.org/en/)
+* [Hugo](https://gohugo.io/)
+* [Node.js](https://nodejs.org/en/)
+* [Yarn](https://yarnpkg.com/en/)
 
 ## Getting started
 
@@ -16,26 +17,24 @@ Make sure that [Hugo is set up in your path](https://gohugo.io/getting-started/i
 
 ```bash
 $ git clone https://github.com/tomodwyer/thatsnotmetalarchive.git
-$ npm install
+$ yarn
 ```
-
 
 ### Run a development environment
 
 ```bash
-$ npm run start
+$ yarn start
 ```
-
 
 ### Build a production copy
 
 ```bash
-$ npm run build
+$ yarn build
 ```
 
 ### Deploy the site
 
-The site is deployed via [Surge](https://surge.sh) from the command line.
+The site is deployed via [Netlify](https://www.netlify.com/).
 
 ## Contributing
 
