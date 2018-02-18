@@ -29,9 +29,10 @@
     X-XSS-Protection = "1; mode=block"
     Content-Security-Policy = "default-src 'none'; script-src 'self' https://widget.sndcdn.com https://cdnjs.cloudflare.com https://www.google-analytics.com https://www.googletagmanager.com; style-src 'self' https://cdnjs.cloudflare.com; img-src 'self' data: *; font-src https://cdnjs.cloudflare.com; frame-src https://w.soundcloud.com;"
 
+[[headers]]
   for = "/**/*.svg"
   [headers.values]
-    Content-Security-Policy = "default-src 'none'; frame-ancestors 'none'; style-src 'self' 'unsafe-inline';";
+    Content-Security-Policy = "default-src 'none'; frame-ancestors 'none'; style-src 'self' 'unsafe-inline';"
 
 #
 # Redirects
