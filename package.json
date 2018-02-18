@@ -5,13 +5,13 @@
     "Show notes and links for every That's Not Metal podcast episode",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build-assets && npm run build-hugo",
+    "build": "yarn build-assets && yarn build-hugo",
     "build-assets": "webpack --env=prod -p",
     "build-hugo": "hugo",
-    "start": "concurrently \"npm run start-assets\" \"npm run start-hugo\"",
+    "start": "concurrently \"yarn start-assets\" \"yarn start-hugo\"",
     "start-assets": "webpack --env=dev --watch",
     "start-hugo": "hugo server -D",
-    "test": "npm run test:js & npm run test:css",
+    "test": "yarn test:js & yarn test:css",
     "test:css": "stylelint --config .stylelintrc.json assets/**/*.scss",
     "test:js": "eslint --config .eslintrc.json assets/**/*.js *.config.js"
   },
