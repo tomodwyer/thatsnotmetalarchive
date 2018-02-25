@@ -78,7 +78,7 @@ input[type="search"],
 input[type="url"],
 select,
 textarea {
-  @include vendor('appearance', 'none');
+  @include vendor("appearance", "none");
 
   background: _palette(border-bg);
   border: none;
@@ -108,7 +108,7 @@ textarea {
 
   &::before {
     color: _palette(border);
-    content: '\f078';
+    content: "\f078";
     display: block;
     height: _size(element-height);
     line-height: _size(element-height);
@@ -140,8 +140,8 @@ textarea {
 }
 
 input[type="checkbox"],
-input[type="radio"], {
-  @include vendor('appearance', 'none');
+input[type="radio"] {
+  @include vendor("appearance", "none");
 
   display: block;
   float: left;
@@ -163,7 +163,7 @@ input[type="radio"], {
 
     &::before {
       background: _palette(border-bg);
-      content: '';
+      content: "";
       display: inline-block;
       height: (_size(element-height) * 0.6);
       left: 0;
@@ -181,7 +181,7 @@ input[type="radio"], {
       background: _palette(fg-bold);
       border-color: _palette(highlight);
       color: _palette(bg);
-      content: '\f00c';
+      content: "\f00c";
     }
   }
 

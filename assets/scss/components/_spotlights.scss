@@ -14,8 +14,8 @@
   }
 
   > section {
-    @include vendor('display', 'flex');
-    @include vendor('flex-direction', 'column');
+    @include vendor("display", "flex");
+    @include vendor("flex-direction", "column");
 
     background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
 
@@ -35,7 +35,7 @@
 
       &::before {
         background: transparentize(_palette(bg), 0.1);
-        content: '';
+        content: "";
         display: block;
         height: 100%;
         left: 0;
@@ -47,10 +47,10 @@
     }
 
     > .content {
-      @include vendor('display', 'flex');
-      @include vendor('flex-direction', 'column');
-      @include vendor('justify-content', 'center');
-      @include vendor('align-items', 'center');
+      @include vendor("display", "flex");
+      @include vendor("flex-direction", "column");
+      @include vendor("justify-content", "center");
+      @include vendor("align-items", "center");
       @include padding(2em, 3em);
 
       margin: 0 auto;
@@ -64,12 +64,12 @@
     }
 
     &:nth-child(2n) {
-      @include vendor('flex-direction', 'column');
+      @include vendor("flex-direction", "column");
 
       background-color: desaturate(lighten(_palette(bg-alt), 4), 2);
 
       > .content {
-        @include vendor('align-items', 'center');
+        @include vendor("align-items", "center");
       }
     }
   }

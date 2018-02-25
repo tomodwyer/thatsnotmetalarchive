@@ -1,7 +1,5 @@
 // Misc.
-$misc: (
-  z-index-base: 10000
-);
+$misc: (z-index-base: 10000);
 
 // Duration.
 $duration: (
@@ -20,8 +18,18 @@ $size: (
 
 // Font.
 $font: (
-  family: (-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif),
-  family-fixed: ('Courier New', monospace),
+  family:
+    (
+      -apple-system,
+      system-ui,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      Roboto,
+      "Helvetica Neue",
+      Arial,
+      sans-serif
+    ),
+  family-fixed: ("Courier New", monospace),
   weight: 300,
   weight-bold: 600,
   letter-spacing: 0.025em,

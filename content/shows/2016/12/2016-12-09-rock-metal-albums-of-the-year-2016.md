@@ -8,20 +8,19 @@ soundcloud: "296916607"
 
 ## News
 
-- [Metallica, Megadeth, Disturbed, Gojira, Korn and More Earn 2017 Grammy Nominations](http://loudwire.com/metallica-megadeth-disturbed-gojira-korn-and-more-earn-2017-grammy-nominations/)
-- [Guns N’ Roses Announce 2017 European + North American Tour Legs](http://loudwire.com/guns-n-roses-summer-2017-european-north-american-tour-legs/)
-- [SKINDRED – ANNIHILATOR – MUNICIPAL WASTE – CONFIRMED FOR BLOODSTOCK 2017](http://www.bloodstock.uk.com/news/skindred-annihilator-municipal-waste-confirmed-for-bloodstock-2017)
-- [Alter Bridge, Mastodon, Clutch + More Lead Second Wave of Download 2017 Bands](http://loudwire.com/alter-bridge-mastodon-clutch-more-second-wave-download-2017-bands/)
-- [FIVE FINGER DEATH PUNCH Show Ends Abruptly After Ivan Moody Could Not Continue Due To The Loss Of His Mother](http://www.metalinjection.net/latest-news/bummer-alert/five-finger-death-punch-show-ends-abruptly-after-ivan-moody-could-not-continue-due-to-the-loss-of-his-mother)
-- [Gojira Announce UK Headline Tour!](http://roadrunnerrecords.co.uk/2016/12/gojira-announce-uk-headline-tour/)
-- [The Interrupters Announce UK Tour](https://www.facebook.com/wearetheinterrupters/photos/a.449899978396179.140651.254567077929471/1331187156934119/?type=3&theater)
+* [Metallica, Megadeth, Disturbed, Gojira, Korn and More Earn 2017 Grammy Nominations](http://loudwire.com/metallica-megadeth-disturbed-gojira-korn-and-more-earn-2017-grammy-nominations/)
+* [Guns N’ Roses Announce 2017 European + North American Tour Legs](http://loudwire.com/guns-n-roses-summer-2017-european-north-american-tour-legs/)
+* [SKINDRED – ANNIHILATOR – MUNICIPAL WASTE – CONFIRMED FOR BLOODSTOCK 2017](http://www.bloodstock.uk.com/news/skindred-annihilator-municipal-waste-confirmed-for-bloodstock-2017)
+* [Alter Bridge, Mastodon, Clutch + More Lead Second Wave of Download 2017 Bands](http://loudwire.com/alter-bridge-mastodon-clutch-more-second-wave-download-2017-bands/)
+* [FIVE FINGER DEATH PUNCH Show Ends Abruptly After Ivan Moody Could Not Continue Due To The Loss Of His Mother](http://www.metalinjection.net/latest-news/bummer-alert/five-finger-death-punch-show-ends-abruptly-after-ivan-moody-could-not-continue-due-to-the-loss-of-his-mother)
+* [Gojira Announce UK Headline Tour!](http://roadrunnerrecords.co.uk/2016/12/gojira-announce-uk-headline-tour/)
+* [The Interrupters Announce UK Tour](https://www.facebook.com/wearetheinterrupters/photos/a.449899978396179.140651.254567077929471/1331187156934119/?type=3&theater)
 
 ## Questions
 
-- **[Adam Shapiro](https://www.facebook.com/thatsnotmetalpodcast/photos/a.1814755825417620.1073741828.1814737015419501/2010285249198009/?type=3&comment_id=2010287129197821&comment_tracking=%7B%22tn%22%3A%22R9%22%7D)**: *Why is there a negative connotation around music being "dated"? Personally, I think there is amazing music going as far back as the 50's, but I always hear people cussing music because it's "too dated". Music can date, but does the quality suffer from it?*
-- **[Tom Bodington](https://www.facebook.com/thatsnotmetalpodcast/photos/a.1814755825417620.1073741828.1814737015419501/2010285249198009/?type=3&comment_id=2010290279197506&comment_tracking=%7B%22tn%22%3A%22R9%22%7D)**: *Best album you've discovered in 2016 that wasn't released this year?*
-- **[Simon Kocinski](https://www.facebook.com/thatsnotmetalpodcast/photos/a.1814755825417620.1073741828.1814737015419501/2010285249198009/?type=3&comment_id=2010287135864487&comment_tracking=%7B%22tn%22%3A%22R9%22%7D)**: *What are your top 3 non rock/metal albums of the year?*
-
+* **[Adam Shapiro](https://www.facebook.com/thatsnotmetalpodcast/photos/a.1814755825417620.1073741828.1814737015419501/2010285249198009/?type=3&comment_id=2010287129197821&comment_tracking=%7B%22tn%22%3A%22R9%22%7D)**: _Why is there a negative connotation around music being "dated"? Personally, I think there is amazing music going as far back as the 50's, but I always hear people cussing music because it's "too dated". Music can date, but does the quality suffer from it?_
+* **[Tom Bodington](https://www.facebook.com/thatsnotmetalpodcast/photos/a.1814755825417620.1073741828.1814737015419501/2010285249198009/?type=3&comment_id=2010290279197506&comment_tracking=%7B%22tn%22%3A%22R9%22%7D)**: _Best album you've discovered in 2016 that wasn't released this year?_
+* **[Simon Kocinski](https://www.facebook.com/thatsnotmetalpodcast/photos/a.1814755825417620.1073741828.1814737015419501/2010285249198009/?type=3&comment_id=2010287135864487&comment_tracking=%7B%22tn%22%3A%22R9%22%7D)**: _What are your top 3 non rock/metal albums of the year?_
 
 ## Top 20 Albums of the Year
 
@@ -48,7 +47,6 @@ soundcloud: "296916607"
 1. [HECK - Instructions](https://itunes.apple.com/gb/album/instructions/id1168906043)
 1. [Black Peaks - Statues](https://itunes.apple.com/gb/album/statues/id1138115548)
 
-
 ### Hill
 
 1. [Black Peaks - Statues](https://itunes.apple.com/gb/album/statues/id1138115548)
@@ -72,7 +70,6 @@ soundcloud: "296916607"
 1. [Every Time I Die - Low Teens](https://itunes.apple.com/gb/album/low-teens/id1124263496)
 1. [Rotting Christ - Rituals](https://itunes.apple.com/gb/album/rituals/id1068432696)
 
-
 ### Listeners
 
 1. [Architects - All Our Gods Have Abandoned Us](https://itunes.apple.com/gb/album/all-our-gods-have-abandoned-us/id1088142267)
@@ -95,6 +92,5 @@ soundcloud: "296916607"
 1. [Avenged Sevenfold - The Stage](https://itunes.apple.com/gb/album/the-stage/id1165860180)
 1. [Cult of Luna & Julie Christmas - Mariner](https://itunes.apple.com/gb/album/mariner/id1082702939)
 1. [The Black Queen - Fever Daydream](https://itunes.apple.com/gb/album/fever-daydream/id1168910628)
-
 
 <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aonlyatom%3Aplaylist%3A34a10mxOJO4cV9SxCTVxUz" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
