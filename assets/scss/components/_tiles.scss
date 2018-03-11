@@ -7,8 +7,8 @@
 /* Tiles */
 
 .tiles {
-  @include vendor('display', 'flex');
-  @include vendor('flex-wrap', 'wrap');
+  @include vendor("display", "flex");
+  @include vendor("flex-wrap", "wrap");
 
   border-top: 0 !important;
 
@@ -17,13 +17,13 @@
   }
 
   article {
-    @include vendor('align-items', 'center');
-    @include vendor('display', 'flex');
-    @include vendor('transition', (
-      'transform 0.25s ease',
-      'opacity 0.25s ease',
-      'filter 1s ease',
-      '-webkit-filter 1s ease'
+    @include vendor("align-items", "center");
+    @include vendor("display", "flex");
+    @include vendor("transition", (
+      "transform 0.25s ease",
+      "opacity 0.25s ease",
+      "filter 1s ease",
+      "-webkit-filter 1s ease"
     ));
     @include padding(4em, 4em);
 
@@ -68,10 +68,10 @@
     }
 
     &::before {
-      @include vendor('transition', 'opacity 0.5s ease');
+      @include vendor("transition", "opacity 0.5s ease");
 
       bottom: 0;
-      content: '';
+      content: "";
       display: block;
       height: 100%;
       left: 0;
@@ -83,7 +83,7 @@
 
     &::after {
       background-color: transparentize(_palette(bg), 0.75);
-      content: '';
+      content: "";
       display: block;
       height: 100%;
       left: 0;
@@ -100,8 +100,8 @@
     }
 
     &.is-transitioning {
-      @include vendor('transform', 'scale(0.95)');
-      @include vendor('filter', 'blur(0.5em)');
+      @include vendor("transform", "scale(0.95)");
+      @include vendor("filter", "blur(0.5em)");
 
       opacity: 0;
     }
@@ -191,7 +191,7 @@
 .tiles-link {
   border: 0;
   bottom: 0;
-  content: '';
+  content: "";
   cursor: pointer;
   height: 100%;
   left: 0;

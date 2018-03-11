@@ -31,9 +31,9 @@ textarea {
 }
 
 a {
-  @include vendor('transition', (
-    'color #{_duration(transition)} ease-in-out',
-    'border-bottom-color #{_duration(transition)} ease-in-out'
+  @include vendor("transition", (
+    "color #{_duration(transition)} ease-in-out",
+    "border-bottom-color #{_duration(transition)} ease-in-out"
   ));
 
   border-bottom: dotted 1px;

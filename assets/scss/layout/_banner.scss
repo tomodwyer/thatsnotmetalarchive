@@ -7,9 +7,9 @@
 /* Banner */
 
 #banner {
-  @include vendor('align-items', 'center');
-  @include vendor('background-image', 'url("/images/banner.jpg")');
-  @include vendor('display', 'flex');
+  @include vendor("align-items", "center");
+  @include vendor("background-image", 'url("/images/banner.jpg")');
+  @include vendor("display", "flex");
   @include padding(4em, 0, (2em, 0, 0, 0));
 
   background-attachment: fixed;
@@ -26,12 +26,12 @@
   top: -3.25em;
 
   &::after {
-    @include vendor('transition', 'opacity #{_duration(banner)} ease');
-    @include vendor('transition-delay', '0.75s');
-    @include vendor('pointer-events', 'none');
+    @include vendor("transition", "opacity #{_duration(banner)} ease");
+    @include vendor("transition-delay", "0.75s");
+    @include vendor("pointer-events", "none");
 
     background-color: _palette(bg);
-    content: '';
+    content: "";
     display: block;
     height: 100%;
     left: 0;
@@ -47,11 +47,11 @@
   }
 
   > .inner {
-    @include vendor('transition', (
-      'opacity 1.5s ease',
-      'transform 0.5s ease-out',
-      'filter 0.5s ease',
-      '-webkit-filter 0.5s ease'
+    @include vendor("transition", (
+      "opacity 1.5s ease",
+      "transform 0.5s ease-out",
+      "filter 0.5s ease",
+      "-webkit-filter 0.5s ease"
     ));
 
     padding: 0 !important;
@@ -75,8 +75,8 @@
     }
 
     .content {
-      @include vendor('display', 'flex');
-      @include vendor('align-items', 'center');
+      @include vendor("display", "flex");
+      @include vendor("align-items", "center");
 
       margin: 0 0 _size(element-margin) 0;
 
@@ -150,8 +150,8 @@
     }
 
     > .inner {
-      @include vendor('filter', 'blur(0.125em)');
-      @include vendor('transform', 'translateX(-0.5em)');
+      @include vendor("filter", "blur(0.125em)");
+      @include vendor("transform", "translateX(-0.5em)");
 
       opacity: 0;
     }
@@ -216,7 +216,7 @@
 }
 
 #banner.banner--logo {
-  @include vendor('background-image', 'url("/img/tnm-logo.jpg")');
+  @include vendor("background-image", 'url("/img/tnm-logo.jpg")');
 
   &::after {
     opacity: 0.9;

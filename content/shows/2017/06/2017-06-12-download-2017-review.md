@@ -10,49 +10,48 @@ soundcloud: 327737113
 
 **Friday:**
 
-- Northlane
-- Astroid Boys
-- Motionless in White
-- Code Orange
-- Mastodon
-- Suicidal Tendencies
-- Five Finger Death Punch
-- Baroness
-- Prophets of Rage
-- System of a Down
-- Krokdil
-- Exodus
-
+* Northlane
+* Astroid Boys
+* Motionless in White
+* Code Orange
+* Mastodon
+* Suicidal Tendencies
+* Five Finger Death Punch
+* Baroness
+* Prophets of Rage
+* System of a Down
+* Krokdil
+* Exodus
 
 **Saturday:**
 
-- Hacktivist
-- Creeper
-- Sikth
-- The One Hundred
-- Suicide Silence
-- Kvelertak
-- Max & Iggor Cavalera Return to Roots
-- AFI
-- Every Time I Die
-- Coheed & Cambria
-- Devin Townsend Project
-- A Day to Remember
-- Biffy Clyro
-- Rob Zombie
+* Hacktivist
+* Creeper
+* Sikth
+* The One Hundred
+* Suicide Silence
+* Kvelertak
+* Max & Iggor Cavalera Return to Roots
+* AFI
+* Every Time I Die
+* Coheed & Cambria
+* Devin Townsend Project
+* A Day to Remember
+* Biffy Clyro
+* Rob Zombie
 
 **Sunday:**
 
-- Orange Goblin
-- Red Fang
-- Devildriver
-- The Cadillac Three
-- In Flames
-- Ministry
-- Clutch
-- Anathema
-- Opeth
-- Basement
-- Slayer
-- The Dillinger Escape Plan
-- Aerosmith
+* Orange Goblin
+* Red Fang
+* Devildriver
+* The Cadillac Three
+* In Flames
+* Ministry
+* Clutch
+* Anathema
+* Opeth
+* Basement
+* Slayer
+* The Dillinger Escape Plan
+* Aerosmith

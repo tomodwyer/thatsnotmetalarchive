@@ -7,20 +7,20 @@ soundcloud:
 
 ## News
 
-- []()
+* []()
 
 ## Questions
 
-- **[]()**: **
+* **[]()**: \*\*
 
 ## Album reviews
 
-- []()
+* []()
 
 ## Live reviews
 
-- []()
+* []()
 
 ## Album club
 
-- []()
+* []()
