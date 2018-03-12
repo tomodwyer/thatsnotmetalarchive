@@ -46,3 +46,8 @@
   from = "/tnm-extra/*"
   to = "/extras/:splat"
   status = 301
+
+[[redirects]]
+  from = "/shows/2017-04-11-tnm-extra-oathbreaker-caro-tanghe/"
+  to = "/extras/2017-04-11-tnm-extra-oathbreaker-caro-tanghe/"
+  status = 301

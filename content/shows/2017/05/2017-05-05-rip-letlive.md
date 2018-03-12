@@ -4,6 +4,9 @@ title: RIP letlive.
 date: 2017-05-05
 description: With a heavy heart, Hill and Beez try to come to terms with the news of letlive’s split. There’s better news with Napalm Death and Earache Records invading Glastonbury and Zakk Wylde’s return to Ozzy Osborne’s band, we discuss the returns of both Rancid and Pvris, there’s album reviews on the new releases from At The Drive-In, Motionless In White, Gnarwolves and Full Of Hell and our Album Club comes on Beartooth’s debut album, Disgusting.
 soundcloud: 321058409
+url: /shows/2017-05-05-rip-letlive/
+aliases:
+  - /shows/2017-05-05-rip-letlive./
 ---
 
 ## News
