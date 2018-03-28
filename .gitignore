@@ -68,5 +68,8 @@ typings/
 
 # End of https://www.gitignore.io/api/hugo,node
 
-data/
-static/
+/dist
+/site/data
+/site/public
+/site/static/css
+/site/static/js
