@@ -1,5 +1,4 @@
 const CleanWebpackPlugin = require("clean-webpack-plugin");
-const CopyWebpackPlugin = require("copy-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const ManifestPlugin = require("webpack-manifest-plugin");
 const WebpackShellPlugin = require("webpack-shell-plugin");
@@ -12,7 +11,6 @@ const extractSass = new ExtractTextPlugin({
 });
 
 const hugoSrc = path.resolve(__dirname, "site");
-const assetsSrc = path.resolve(__dirname, "src");
 const dest = path.resolve(__dirname, "dist");
 
 const hugoDev = `hugo --buildDrafts --watch --source ${hugoSrc} --destination ${dest}`;
