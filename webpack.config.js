@@ -1,5 +1,4 @@
 const CleanWebpackPlugin = require("clean-webpack-plugin");
-const CopyWebpackPlugin = require("copy-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const ManifestPlugin = require("webpack-manifest-plugin");
 const WebpackShellPlugin = require("webpack-shell-plugin");
@@ -11,19 +10,25 @@ const extractSass = new ExtractTextPlugin({
   disable: process.env.NODE_ENV === "development"
 });
 
+const hugoSrc = path.resolve(__dirname, "site");
+const dest = path.resolve(__dirname, "dist");
+
+const hugoDev = `hugo --buildDrafts --watch --source ${hugoSrc} --destination ${dest}`;
+const hugoProd = `hugo --source ${hugoSrc} --destination ${dest}`;
+
 module.exports = env => {
   const isDev = env === "dev";
 
   return {
     devtool: isDev ? "inline-source-map" : false,
     devServer: {
-      contentBase: [path.join(__dirname, "public")],
+      contentBase: dest,
       watchContentBase: true
     },
-    entry: { js: "./assets/js/main.js", css: "./assets/scss/main.scss" },
+    entry: { js: "./src/js/main.js", css: "./src/scss/main.scss" },
     output: {
       filename: "[name]/[chunkhash].[name]",
-      path: path.resolve(__dirname, "static")
+      path: path.resolve(__dirname, "site", "static")
     },
     module: {
       rules: [
@@ -61,12 +66,10 @@ module.exports = env => {
     },
     plugins: [
       new CleanWebpackPlugin([
-        path.resolve(__dirname, "public"),
-        path.resolve(__dirname, "static")
-      ]),
-      new CopyWebpackPlugin([
-        { from: "./assets/ico", to: "." },
-        { from: "./assets/img", to: "img" }
+        path.resolve(__dirname, "dist"),
+        path.resolve(__dirname, "site", "data"),
+        path.resolve(__dirname, "site", "static", "css"),
+        path.resolve(__dirname, "site", "static", "js")
       ]),
       new ManifestPlugin({
         fileName: "../data/assets.json",
@@ -78,7 +81,9 @@ module.exports = env => {
         jQuery: "jquery",
         "window.jQuery": "jquery"
       }),
-      new WebpackShellPlugin({ onBuildEnd: isDev ? ["hugo -D -w"] : ["hugo"] })
+      new WebpackShellPlugin({
+        onBuildEnd: isDev ? hugoDev : hugoProd
+      })
     ]
   };
 };
