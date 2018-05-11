@@ -3,20 +3,20 @@
   publish = "dist"
 
 [context.production.environment]
-  HUGO_VERSION = "0.37.1"
+  HUGO_VERSION = "0.40.3"
   HUGO_ENV = "production"
   NODE_VERSION = "--lts=carbon"
-  YARN_VERSION = "1.5.1"
+  YARN_VERSION = "1.6.0"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.37.1"
+  HUGO_VERSION = "0.40.3"
   NODE_VERSION = "--lts=carbon"
-  YARN_VERSION = "1.5.1"
+  YARN_VERSION = "1.6.0"
 
 [context.branch-deploy.environment]
-  HUGO_VERSION = "0.37.1"
+  HUGO_VERSION = "0.40.3"
   NODE_VERSION = "--lts=carbon"
-  YARN_VERSION = "1.5.1"
+  YARN_VERSION = "1.6.0"
 
 #
 # Headers
