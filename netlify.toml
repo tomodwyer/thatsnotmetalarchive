@@ -51,3 +51,18 @@
   from = "/shows/2017-04-11-tnm-extra-oathbreaker-caro-tanghe/"
   to = "/extras/2017-04-11-tnm-extra-oathbreaker-caro-tanghe/"
   status = 301
+
+[[redirects]]
+  from = "/shows/2017-04-25-tnm-extra-festival-debate/"
+  to = "/extras/2017-04-25-tnm-extra-festival-debate/"
+  status = 301
+
+[[redirects]]
+  from = "/shows/2017-07-21-21-rip-chester-bennington/"
+  to = "/shows/2017-07-21-rip-chester-bennington/"
+  status = 301
+
+[[redirects]]
+  from = "/shows/page-2/"
+  to = "/shows/page/2/"
+  status = 301
