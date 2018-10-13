@@ -12,11 +12,14 @@ input[type="button"],
 button,
 .button {
   @include vendor("appearance", "none");
-  @include vendor("transition", (
-    "background-color #{_duration(transition)} ease-in-out",
-    "box-shadow #{_duration(transition)} ease-in-out",
-    "color #{_duration(transition)} ease-in-out"
-  ));
+  @include vendor(
+    "transition",
+    (
+      "background-color #{_duration(transition)} ease-in-out",
+      "box-shadow #{_duration(transition)} ease-in-out",
+      "color #{_duration(transition)} ease-in-out"
+    )
+  );
 
   background-color: transparent;
   border: 0;
@@ -76,7 +79,10 @@ button,
 
     &::before,
     &::after {
-      @include vendor("transition", "opacity #{_duration(transition)} ease-in-out");
+      @include vendor(
+        "transition",
+        "opacity #{_duration(transition)} ease-in-out"
+      );
 
       background-position: center right;
       background-repeat: no-repeat;
@@ -94,7 +100,7 @@ button,
     &::before {
       /* stylelint-disable */
       background-image: svg-url(
-        '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36px" height="24px" viewBox="0 0 36 24" zoomAndPan="disable"><style>line { stroke: #{_palette(fg-bold)}; stroke-width: 2px; }</style><line x1="0" y1="12" x2="34" y2="12" /><line x1="25" y1="4" x2="34" y2="12.5" /><line x1="25" y1="20" x2="34" y2="11.5" /></svg>'
+        '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36px" height="24px" viewBox="0 0 36 24" zoomAndPan="disable"><style>path { stroke: #{_palette(fg-bold)}; stroke-width: 2px; }</style><line x1="0" y1="12" x2="34" y2="12" /><line x1="25" y1="4" x2="34" y2="12.5" /><line x1="25" y1="20" x2="34" y2="11.5" /></svg>'
       );
       /* stylelint-enable */
     }
@@ -102,7 +108,7 @@ button,
     &::after {
       /* stylelint-disable */
       background-image: svg-url(
-        '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36px" height="24px" viewBox="0 0 36 24" zoomAndPan="disable"><style>line { stroke: #{_palette(highlight)}; stroke-width: 2px; }</style><line x1="0" y1="12" x2="34" y2="12" /><line x1="25" y1="4" x2="34" y2="12.5" /><line x1="25" y1="20" x2="34" y2="11.5" /></svg>'
+        '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36px" height="24px" viewBox="0 0 36 24" zoomAndPan="disable"><style>path { stroke: #{_palette(highlight)}; stroke-width: 2px; }</style><line x1="0" y1="12" x2="34" y2="12" /><line x1="25" y1="4" x2="34" y2="12.5" /><line x1="25" y1="20" x2="34" y2="11.5" /></svg>'
       );
       /* stylelint-enable */
       opacity: 0;
