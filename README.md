@@ -1,15 +1,12 @@
 # That's Not Metal Archive
 
-An unofficial collection of show notes and links from the
-[That's Not Metal](http://thatsnotmetal.net/) podcast.
+An unofficial collection of show notes and links from the [That's Not Metal](http://thatsnotmetal.net/) podcast.
 
 ## Requirements
 
 To run a local copy of this site you will need:
 
-* [Hugo](https://gohugo.io/)
-* [Node.js](https://nodejs.org/en/)
-* [Yarn](https://yarnpkg.com/en/)
+- [Hugo](https://gohugo.io/)
 
 ## Getting started
 
@@ -17,19 +14,18 @@ Make sure that [Hugo is set up in your path](https://gohugo.io/getting-started/i
 
 ```bash
 $ git clone https://github.com/tomodwyer/thatsnotmetalarchive.git
-$ yarn
 ```
 
 ### Run a development environment
 
 ```bash
-$ yarn start
+$ hugo server --buildDrafts --buildFuture
 ```
 
 ### Build a production copy
 
 ```bash
-$ yarn build
+$ hugo
 ```
 
 ### Deploy the site
