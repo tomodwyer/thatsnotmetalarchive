@@ -7,11 +7,14 @@
 /* Menu */
 
 #menu {
-  @include vendor("transition", (
-    "transform #{_duration(menu)} ease",
-    "opacity #{_duration(menu)} ease",
-    "visibility #{_duration(menu)}"
-  ));
+  @include vendor(
+    "transition",
+    (
+      "transform #{_duration(menu)} ease",
+      "opacity #{_duration(menu)} ease",
+      "visibility #{_duration(menu)}"
+    )
+  );
   @include vendor("align-items", "center");
   @include vendor("display", "flex");
   @include vendor("justify-content", "center");
@@ -31,11 +34,14 @@
   z-index: _misc(z-index-base) + 2;
 
   .inner {
-    @include vendor("transition", (
-      "transform #{_duration(menu)} ease-out",
-      "opacity #{_duration(menu)} ease",
-      "visibility #{_duration(menu)}"
-    ));
+    @include vendor(
+      "transition",
+      (
+        "transform #{_duration(menu)} ease-out",
+        "opacity #{_duration(menu)} ease",
+        "visibility #{_duration(menu)}"
+      )
+    );
     @include vendor("transform", "rotateX(20deg)");
 
     max-height: 100vh;
@@ -114,7 +120,10 @@
 
     &::before,
     &::after {
-      @include vendor("transition", "opacity #{_duration(transition)} ease-in-out");
+      @include vendor(
+        "transition",
+        "opacity #{_duration(transition)} ease-in-out"
+      );
 
       background-position: center;
       background-repeat: no-repeat;
@@ -130,7 +139,7 @@
     &::before {
       /* stylelint-disable */
       background-image: svg-url(
-        '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 20 20" zoomAndPan="disable"><style>line { stroke: #{_palette(fg-bold)}; stroke-width: 2; }</style><line x1="0" y1="0" x2="20" y2="20" /><line x1="20" y1="0" x2="0" y2="20" /></svg>'
+        '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 20 20" zoomAndPan="disable"><style>path { stroke: #{_palette(fg-bold)}; stroke-width: 2; }</style><line x1="0" y1="0" x2="20" y2="20" /><line x1="20" y1="0" x2="0" y2="20" /></svg>'
       );
       /* stylelint-enable */
     }
@@ -138,7 +147,7 @@
     &::after {
       /* stylelint-disable */
       background-image: svg-url(
-        '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 20 20" zoomAndPan="disable"><style>line { stroke: #{_palette(highlight)}; stroke-width: 2; }</style><line x1="0" y1="0" x2="20" y2="20" /><line x1="20" y1="0" x2="0" y2="20" /></svg>'
+        '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 20 20" zoomAndPan="disable"><style>path { stroke: #{_palette(highlight)}; stroke-width: 2; }</style><line x1="0" y1="0" x2="20" y2="20" /><line x1="20" y1="0" x2="0" y2="20" /></svg>'
       );
       /* stylelint-enable */
       opacity: 0;
