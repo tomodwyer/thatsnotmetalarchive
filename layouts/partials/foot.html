@@ -7,8 +7,6 @@
 {{ $scrollex := resources.Get "js/vendor/jquery.scrollex.js" }}
 {{ $util := resources.Get "js/vendor/util.js" }}
 {{ $forty := resources.Get "js/vendor/forty.js" }}
-{{ $ga := resources.Get "js/vendor/ga.js" }}
-{{ $js := slice $scrolly $scrollex $util $forty $ga | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
+{{ $js := slice $scrolly $scrollex $util $forty | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
 
 <script src="{{ $js.Permalink }}"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-83926181-1" defer></script>
