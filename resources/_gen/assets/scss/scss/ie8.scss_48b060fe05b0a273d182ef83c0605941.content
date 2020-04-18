@@ -1,1 +1,0 @@
-.button{border:solid 2px!important}.button.next{padding-right:1.75em}.button.next::before,.button.next::after{display:none}.tiles article{background-size:cover;-ms-behavior:url(/js/ie/backgroundsize.min.htc);behavior:url(/js/ie/backgroundsize.min.htc);width:50%}#banner{-ms-behavior:url(/js/ie/backgroundsize.min.htc)}#banner::after{display:none}#menu{background:#242943}
